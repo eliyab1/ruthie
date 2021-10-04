@@ -9,7 +9,7 @@ export default function NavBar() {
 
         function activate(e) {
             const states = {"setHome":setHome, "setServices": setServices, "setContact": setContact, "setAboutMe":setAboutMe}
-            Object.keys(states).map(state => {if (state===e) {return states.state(true)} else {return states.{state}(false)}})
+            states.map(state => {if (state===e) {return eval(state)(true)} else {return eval(state)(false)}})
         }
 
     return<div className="topnav">
