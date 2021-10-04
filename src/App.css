@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
-}
+body {margin: 0px; padding: 0px;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.titles {display:flex; align-items:center; 
+   flex-direction:column; color:#D1E8E2; 
+   font-family: sans-serif; background:#116466;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.topnav {display:flex; background-image:url("C:\Users\eliya\ruthie\src\Untitled2.png");
+  background-size: contain; justify-content:flex-end; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.topnav button { border:black 3px ; padding:30px 25px; color:#D1E8E2; font-size:25px; font-weight:bolder;
+  -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:#116466; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif; text-decoration: none; cursor: pointer; background-color: transparent;}
 
-.App-link {
-  color: #61dafb;
-}
+.topnav button:not(.active):hover {background-color: cornsilk; color:#064647; opacity: 0.5;}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.topnav button.active {background-color: midnightblue; color:mistyrose}
+
+.title {margin: 8px;}
