@@ -8,7 +8,7 @@ export default function NavBar() {
     function tabs() {
 
         function activate(e) {
-            const states = {"setHome":setHome, "setServices": setServices, "setContact": setContact, "setAboutMe":setAboutMe}
+            const states = ["setHome", "setServices", "setContact", "setAboutMe"]
             states.map(state => {if (state===e) {return eval(state)(true)} else {return eval(state)(false)}})
         }
 
