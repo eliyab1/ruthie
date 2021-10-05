@@ -4,7 +4,7 @@ body {margin: 0px; padding: 0px;}
    flex-direction:column; color:#D1E8E2; 
    font-family: sans-serif; background:#116466;}
 
-.topnav {display:flex; background-image:url("C:\Users\eliya\ruthie\src\Untitled2.png");
+.topnav {display:flex; background-image:url("Untitled2.png");
   background-size: contain; justify-content:flex-end; }
 
 .topnav button { border:black 3px ; padding:30px 25px; color:#D1E8E2; font-size:25px; font-weight:bolder;
