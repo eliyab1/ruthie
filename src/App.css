@@ -7,12 +7,26 @@ body {margin: 0px; padding: 0px;}
 .topnav {display:flex; background-image:url("Untitled2.png");
   background-size: contain; justify-content:flex-end; }
 
-.topnav button { border:black 3px ; padding:30px 25px; color:#D1E8E2; font-size:25px; font-weight:bolder;
+.topnav button { border:black 3px ; padding:30px 25px; color:#D1E8E2; font-size:20px; font-weight:bolder;
   -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:#116466; 
   font-family:Verdana, Geneva, Tahoma, sans-serif; text-decoration: none; cursor: pointer; background-color: transparent;}
 
 .topnav button:not(.active):hover {background-color: cornsilk; color:#064647; opacity: 0.5;}
 
-.topnav button.active {background-color: midnightblue; color:mistyrose}
+.topnav button.active {background-color:darkseagreen; color:blue; opacity: 0.8;}
 
 .title {margin: 8px;}
+
+.dropdown {position:relative; display:inline-block;}
+
+.dropdown-content {display:none; position:absolute; background-color: cornsilk; color: #064647; font-size: 15px; text-align: center;}
+
+.dropdown-content.active {background-color:darkseagreen; color:blue; opacity: 0.8;}
+
+.dropdown-content.active span:hover {background-color: rgb(70, 133, 70); color:blue; opacity: 0.8; cursor: pointer;}
+
+.dropdown-content span {display: block; padding: 15px 10px;}
+
+.dropdown-content span:hover {background-color: rgb(207, 192, 132); cursor: pointer;}
+
+.dropdown:hover .dropdown-content {display:block;}
