@@ -26,11 +26,11 @@ export default function NavBar() {
         <div className={clsx({"active":services, "dropdown":true})}>
         <Link to="/services"><button className={clsx({"active":services, "dropdown":true})} value="setServices" >Services</button></Link>
         <div className={clsx({"active":services, "dropdown-content":true})}>
-            <Link to="/individual"><span>Individual Therapy</span></Link>
-            <Link to="/maternalhealth"><span>Maternal Mental Health</span></Link>
-            <Link to="/curriculumdev"><span>Curriculum Development</span></Link>
-            <Link to="/grouptherapy"><span>Group Therapy</span></Link>
-            <Link to="/plantmedicine"><span>Plant Medicine/ Altered States of Consciousness Integration</span></Link>
+            <Link to="/services/individual"><span>Individual Therapy</span></Link>
+            <Link to="/services/maternalhealth"><span>Maternal Mental Health</span></Link>
+            <Link to="/services/curriculumdev"><span>Curriculum Development</span></Link>
+            <Link to="/services/grouptherapy"><span>Group Therapy</span></Link>
+            <Link to="/services/plantmedicine"><span>Plant Medicine/ Altered States of Consciousness Integration</span></Link>
         </div>
         </div>
         <Link to="/contact"><button className={clsx({"active":contact})} value="setContact" >Contact</button></Link>

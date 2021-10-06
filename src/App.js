@@ -21,16 +21,16 @@ export default function App() {
     {Tabs()}
     <Switch>
       <Route exact path="/"> <Home /> </Route>
-      <Route path="/services"> <Services /> </Route> 
+      <Route exact path="/services"> <Services /> </Route> 
       <Route path="/faqs"> <FAQs /> </Route>
       <Route path="/resources"> <Resources /> </Route>
       <Route path="/aboutme"> <AboutMe /> </Route>
       <Route path="/contact"> <Contact /> </Route>
-      <Route path="/individual"> <IndividualTherapy /> </Route>
-      <Route path="/maternalhealth"> <MaternalHealth /> </Route>
-      <Route path="/curriculumdev"> <CurriculumDev /> </Route>
-      <Route path="/grouptherapy"> <GroupTherapy /></Route>
-      <Route path="/plantmedicine"> <PlantMedicine /></Route>
+      <Route path="/services/individual"> <IndividualTherapy /> </Route>
+      <Route path="/services/maternalhealth"> <MaternalHealth /> </Route>
+      <Route path="/services/curriculumdev"> <CurriculumDev /> </Route>
+      <Route path="/services/grouptherapy"> <GroupTherapy /></Route>
+      <Route path="/services/plantmedicine"> <PlantMedicine /></Route>
     </Switch>
     </Router>
   </>
