@@ -16,9 +16,9 @@ export default function NavBar() {
 
     return<div className="topnav">
         <button className={clsx({"active":home})} value="setHome" onClick={(e) => activate(e.target.value)}>Home</button>
-        <div className="dropdown">
+        <div className={clsx({"active":services, "dropdown":true})}>
         <button className={clsx({"active":services, "dropdown":true})} value="setServices" onClick={(e) => {activate(e.target.value)}}>Services</button>
-        <div className={clsx({"dropdown-content":true, "active":services})}>
+        <div className={clsx({"active":services, "dropdown-content":true})}>
             <span>Individual Therapy</span>
             <span>Maternal Mental Health</span>
             <span>Curriculum Development</span>
