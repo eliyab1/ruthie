@@ -4,6 +4,8 @@ body {margin: 0px; padding: 0px;}
    flex-direction:column; color:#D1E8E2; 
    font-family: sans-serif; background:#116466;}
 
+.title {margin: 8px;}
+
 .topnav {display:flex; background-image:url("Untitled2.png");
   background-size: contain; justify-content:flex-end; }
 
@@ -15,18 +17,16 @@ body {margin: 0px; padding: 0px;}
 
 .topnav button.active {background-color:darkseagreen; color:blue; opacity: 0.8;}
 
-.title {margin: 8px;}
-
 .dropdown {position:relative; display:inline-block;}
 
+.dropdown:hover .dropdown-content {display:block;}
+
 .dropdown-content {display:none; position:absolute; background-color: cornsilk; color: #064647; font-size: 15px; text-align: center;}
-
-.dropdown-content.active {background-color:darkseagreen; color:blue; opacity: 0.8;}
-
-.dropdown-content.active span:hover {background-color: rgb(70, 133, 70); color:blue; opacity: 0.8; cursor: pointer;}
 
 .dropdown-content span {display: block; padding: 15px 10px;}
 
 .dropdown-content span:hover {background-color: rgb(207, 192, 132); cursor: pointer;}
 
-.dropdown:hover .dropdown-content {display:block;}
+.dropdown-content.active {background-color:darkseagreen; color:blue; opacity: 0.8;}
+
+.dropdown-content.active span:hover {background-color: rgb(70, 133, 70); color:blue; opacity: 0.8; cursor: pointer;}
