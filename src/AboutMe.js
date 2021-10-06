@@ -1,5 +1,5 @@
 export default function AboutMe() {
-    return <><p>Picture of me</p>
+    return <><img src={require("./r.png")} alt="Ruthie Ayzenberg" />
  
     <p>Ruthie Ayzenberg, LMFT, LPCC
     I am a licensed Marriage and Family Therapist and Professional Clinical Counselor,  practicing therapy since 2013. 

@@ -13,9 +13,9 @@ body {margin: 0px; padding: 0px;}
   -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:#116466; 
   font-family:Verdana, Geneva, Tahoma, sans-serif; cursor: pointer; background-color: transparent;}
 
-.topnav button:not(.active):not(.dropdown):hover {background-color: cornsilk; color:#064647; opacity: 0.5;}
+.topnav button:not(:focus):not(.dropdown):hover {background-color: cornsilk; color:#064647; opacity: 0.5;}
 
-.topnav button.active:not(.dropdown:hover) {background-color:darkseagreen; color:blue; opacity: 0.8;}
+.topnav button:focus:not(.dropdown:hover) {background-color:darkseagreen; color:blue; opacity: 0.8;}
 
 div.dropdown {position:relative; display:inline-block;}
 
@@ -23,10 +23,10 @@ div.dropdown:hover .dropdown-content {display:block;}
 
 div.dropdown:hover {background-image:url("Untitled2.png"); background-size: contain; box-shadow: inset 0 0 0 1000px rgba(255, 248, 220, 0.8)}
 
-div.dropdown.active:hover button.dropdown.active {background-image:url("Untitled2.png"); background-size: contain;
+div.dropdown:hover:focus button.dropdown:focus {background-image:url("Untitled2.png"); background-size: contain;
   box-shadow: inset 0 0 0 1000px  rgba(159, 216, 159, 0.8); color:blue;}
 
-button.dropdown.active:hover {background-image:url("Untitled2.png"); background-size: contain; box-shadow: inset 0 0 0 1000px rgba(106, 197, 106, 0.8);}
+button.dropdown:hover:focus {background-image:url("Untitled2.png"); background-size: contain; box-shadow: inset 0 0 0 1000px rgba(106, 197, 106, 0.8);}
 
 button.dropdown:hover {background-image:url("Untitled2.png"); background-size: contain; box-shadow: inset 0 0 0 1000px rgba(207, 192, 132, 0.8);}
 
@@ -38,11 +38,11 @@ button.dropdown:hover {background-image:url("Untitled2.png"); background-size: c
 .dropdown-content span:hover {background-image:url("Untitled2.png"); background-size: 72px;
    box-shadow: inset 0 0 0 1000px rgba(207, 192, 132, 0.8); cursor: pointer;}
 
-.dropdown-content.active {background-image:url("Untitled2.png"); background-size: 72px;
+.dropdown-content:focus {background-image:url("Untitled2.png"); background-size: 72px;
   box-shadow: inset 0 0 0 1000px  rgba(159, 216, 159, 0.8); color:blue;}
 
-div.dropdown.active:hover button.dropdown.active {background-image:url("Untitled2.png"); background-size: contain;
+div.dropdown:hover:focus button.dropdown:focus {background-image:url("Untitled2.png"); background-size: contain;
     box-shadow: inset 0 0 0 1000px  rgba(159, 216, 159, 0.8); color:blue;}
 
-.dropdown-content.active span:hover {background-image:url("Untitled2.png"); background-size: contain; background-size: 72px;
+.dropdown-content:focus span:hover {background-image:url("Untitled2.png"); background-size: contain; background-size: 72px;
   box-shadow: inset 0 0 0 1000px rgba(106, 197, 106, 0.8); cursor: pointer;}
