@@ -1,4 +1,4 @@
-body {display: flex; overflow-x: auto; margin: 0px; padding: 0px; background-color: #f3fcfc;}
+body {display: flex; overflow-x: auto; margin: 0px; padding: 0px; background-color: #e8fdfd;}
 
 .titles {display:flex; align-items:center; 
    flex-direction:column; color:#D1E8E2; 
@@ -46,3 +46,8 @@ div.dropdown:hover:focus button.dropdown:focus {background-image:url("Untitled2.
 
 .dropdown-content:focus span:hover {background-image:url("Untitled2.png"); background-size: contain; background-size: 72px;
   box-shadow: inset 0 0 0 1000px rgba(106, 197, 106, 0.8); cursor: pointer;}
+
+
+  .page-content {display: flex; align-items: center; flex-direction: column; margin: 90px 500px; text-align: center;}
+
+li {margin-bottom: 15px; text-align: left;}

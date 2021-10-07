@@ -1,6 +1,7 @@
 export default function MaternalHealth() {
     return <>
-    <ul>
+    <div className="page-content">
+    <ul style={{"font-size":"23px"}}>
         <li>Perinatal mood and anxiety disorders</li>
         <li>Birth and postpartum planning for new parents/families</li>
         <li>Postpartum adjustment for new moms/dads/families</li>
@@ -9,5 +10,6 @@ export default function MaternalHealth() {
         <li>Building attachment</li>
         <li>Postpartum depression and anxiety in dads/partners</li>
     </ul>
+    </div>
     </>
 }
