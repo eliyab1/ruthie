@@ -1,4 +1,4 @@
-body {margin: 0px; padding: 0px;}
+body {display: flex; overflow-x: auto; margin: 0px; padding: 0px; background-color: #f3fcfc;}
 
 .titles {display:flex; align-items:center; 
    flex-direction:column; color:#D1E8E2; 
