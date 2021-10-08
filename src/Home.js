@@ -1,4 +1,6 @@
+import { useEffect } from "react"
 export default function Home() {
+    useEffect(()=>{document.title="Mental Fitness Therapy"})
     return <><div className="page-content"><h3>Welcome to Mental Fitness Therapy, where we build emotional muscles and psychological flexibility for a healthy and
          happy life. Getting into shape, both physically and mentally, requires some initial concerted effort, but with practice the 
          process becomes organic and enjoyable.</h3>
