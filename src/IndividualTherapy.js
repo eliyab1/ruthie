@@ -1,4 +1,6 @@
-export default function individualTherapy() {
+import { useEffect } from "react"
+export default function IndividualTherapy() {
+    useEffect(()=>{document.title="Individual Therapy | Mental Fitness Therapy"},[])
     return <>
     <div className="page-content">
         <h2><u>Getting Started</u></h2><br />

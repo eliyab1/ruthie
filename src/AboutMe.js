@@ -1,4 +1,6 @@
+import { useEffect } from "react"
 export default function AboutMe() {
+    useEffect(()=>{document.title="About Me | Mental Fitness Therapy"},[])
     return <><div className="page-content">
     <b>
     <h3>Ruthie Ayzenberg, LMFT, LPCC

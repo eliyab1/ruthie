@@ -1,4 +1,4 @@
-body {display: flex; overflow-x: auto; margin: 0px; padding: 0px; background-color: #e8fdfd;}
+body {display: flex; overflow-x: auto; overflow-y: scroll; margin: 0px; padding: 0px; background-color: #e8fdfd;}
 
 .titles {display:flex; align-items:center; 
    flex-direction:column; color:#D1E8E2; 
@@ -26,7 +26,7 @@ div.dropdown:hover {background-image:url("Untitled2.png"); background-size: cont
 div.dropdown:hover:focus button.dropdown:focus {background-image:url("Untitled2.png"); background-size: contain;
   box-shadow: inset 0 0 0 1000px  rgba(159, 216, 159, 0.8); color:blue;}
 
-button.dropdown:hover:focus {background-image:url("Untitled2.png"); background-size: contain; box-shadow: inset 0 0 0 1000px rgba(106, 197, 106, 0.8);}
+button.dropdown.active:hover {background-image:url("Untitled2.png"); background-size: contain; box-shadow: inset 0 0 0 1000px rgba(106, 197, 106, 0.8);}
 
 button.dropdown:hover {background-image:url("Untitled2.png"); background-size: contain; box-shadow: inset 0 0 0 1000px rgba(207, 192, 132, 0.8);}
 
@@ -38,16 +38,18 @@ button.dropdown:hover {background-image:url("Untitled2.png"); background-size: c
 .dropdown-content span:hover {background-image:url("Untitled2.png"); background-size: 72px;
    box-shadow: inset 0 0 0 1000px rgba(207, 192, 132, 0.8); cursor: pointer;}
 
-.dropdown-content:focus {background-image:url("Untitled2.png"); background-size: 72px;
+.dropdown-content.active {background-image:url("Untitled2.png"); background-size: 72px;
   box-shadow: inset 0 0 0 1000px  rgba(159, 216, 159, 0.8); color:blue;}
 
-div.dropdown:hover:focus button.dropdown:focus {background-image:url("Untitled2.png"); background-size: contain;
+div.dropdown.active:hover button.dropdown.active {background-image:url("Untitled2.png"); background-size: contain;
     box-shadow: inset 0 0 0 1000px  rgba(159, 216, 159, 0.8); color:blue;}
 
-.dropdown-content:focus span:hover {background-image:url("Untitled2.png"); background-size: contain; background-size: 72px;
+.dropdown-content.active span:hover {background-image:url("Untitled2.png"); background-size: contain; background-size: 72px;
   box-shadow: inset 0 0 0 1000px rgba(106, 197, 106, 0.8); cursor: pointer;}
 
 
-  .page-content {display: flex; align-items: center; flex-direction: column; margin: 90px 500px; text-align: center;}
+.page-content {display: flex; align-items: center; flex-direction: column; margin: 50px 500px 30px 500px; text-align: center;}
 
 li {margin-bottom: 15px; text-align: left;}
+
+div.resources h3 {margin-bottom: 0px;}

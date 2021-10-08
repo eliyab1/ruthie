@@ -1,4 +1,6 @@
+import { useEffect } from "react"
 export default function GroupTherapy() {
+    useEffect(()=>{document.title="Group Therapy | Mental Fitness Therapy"},[])
     return <>
     <div className="page-content">
     <h2>Room 2 Grow: Postpartum Adjustment Support Group</h2>

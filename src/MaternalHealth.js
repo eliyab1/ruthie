@@ -1,4 +1,6 @@
+import { useEffect } from "react"
 export default function MaternalHealth() {
+    useEffect(()=>{document.title="Maternal Health | Mental Fitness Therapy"},[])
     return <>
     <div className="page-content">
     <ul style={{"font-size":"23px"}}>
