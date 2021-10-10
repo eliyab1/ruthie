@@ -33,9 +33,6 @@ export default function AboutMe() {
     </b>
     <br />
     <br />
-    <br />
-    <br />
-    <br />
     <img src={seal} alt="seal" height="200" style={{"border-radius":"50%"}} />
     <br />
     <small>Certification from Postpartum Support International Image Seal</small>
