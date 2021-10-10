@@ -1,12 +1,12 @@
 import { useEffect } from "react"
-import rut from "./rut.jpg"
+import ruth from "./ruth.jfif"
 import seal from "./seal.PNG"
 export default function AboutMe() {
     useEffect(()=>{document.title="About Me | Mental Fitness Therapy"},[])
     return <><div className="page-content">
     <b>
     <h2>Ruthie Ayzenberg, LMFT, LPCC</h2>
-   <img src={rut} alt="rut" height="300" style={{"border-radius":"75%"}} />
+   <img src={ruth} alt="ruthie ayzenberg" height="300" style={{"border-radius":"75%"}} />
    <br />
    <br />
     <h3>I am a licensed Marriage and Family Therapist and Professional Clinical Counselor,  practicing therapy since 2013. 
