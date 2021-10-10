@@ -1,10 +1,19 @@
 import { useEffect } from "react"
+import rus from "./rus.png"
+import ruthie from "./ruthie.jfif"
+import rut from "./rut.jpg"
+import seal from "./seal.PNG"
 export default function AboutMe() {
     useEffect(()=>{document.title="About Me | Mental Fitness Therapy"},[])
     return <><div className="page-content">
     <b>
-    <h3>Ruthie Ayzenberg, LMFT, LPCC
-    I am a licensed Marriage and Family Therapist and Professional Clinical Counselor,  practicing therapy since 2013. 
+    <h2>Ruthie Ayzenberg, LMFT, LPCC</h2>
+    {/* <img src={rus} alt="Ruthie Ayzenberg" height="15%" style={{"border-radius":"75%"}} /> */}
+    {/* <img src={ruthie} alt="Ruthie" style={{"border-radius":"75%"}} /> */}
+   <img src={rut} alt="rut" height="300" style={{"border-radius":"75%"}} />
+   <br />
+   <br />
+    <h3>I am a licensed Marriage and Family Therapist and Professional Clinical Counselor,  practicing therapy since 2013. 
     I completed the Counseling Psychology program at Santa Clara University, and over the years have worked with kids, teens, 
     families, and adults with a wide range of concerns across all levels of care from outpatient to hospital.  I have a 
     specialization in maternal mental health, including working with moms and dads facing pre/postpartum issues. I also 
@@ -21,9 +30,16 @@ export default function AboutMe() {
      <h3>I practice what I preach and implement all the skills and tools I teach you in therapy into my own life on a regular basis. 
      All the techniques I recommend to clients are ones that I have tried out for myself and found helpful. I really enjoy this 
      line of work and keep the flame burning with continuous training, peer consultation, and self-care.</h3>
-    
-    <h3>Certification from Postpartum Support International Image Seal
-    </h3></b>
+    </b>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <img src={seal} alt="seal" height="200" style={{"border-radius":"50%"}} />
+    <br />
+    <small>Certification from Postpartum Support International Image Seal</small>
+    <br />
     </div>
     </>
 }
