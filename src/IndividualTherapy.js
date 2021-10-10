@@ -4,9 +4,9 @@ export default function IndividualTherapy() {
     return <>
     <div className="page-content">
         <h2>“If you are your own problem, then you can be your own solution.“</h2><br />
-        <ul style={{"list-style-type":"none"}}>
+        <ul>
             <li>
-                Issues: <ul style={{"list-style-type":"none"}}>
+                Issues: <ul>
                     <li>Depression</li>
                     <li>Anxiety</li>
                     <li>Bipolar</li>
