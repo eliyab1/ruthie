@@ -1,6 +1,4 @@
 import { useEffect } from "react"
-import rus from "./rus.png"
-import ruthie from "./ruthie.jfif"
 import rut from "./rut.jpg"
 import seal from "./seal.PNG"
 export default function AboutMe() {
@@ -8,8 +6,6 @@ export default function AboutMe() {
     return <><div className="page-content">
     <b>
     <h2>Ruthie Ayzenberg, LMFT, LPCC</h2>
-    {/* <img src={rus} alt="Ruthie Ayzenberg" height="15%" style={{"border-radius":"75%"}} /> */}
-    {/* <img src={ruthie} alt="Ruthie" style={{"border-radius":"75%"}} /> */}
    <img src={rut} alt="rut" height="300" style={{"border-radius":"75%"}} />
    <br />
    <br />
