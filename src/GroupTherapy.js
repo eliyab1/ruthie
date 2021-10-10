@@ -13,7 +13,7 @@ export default function GroupTherapy() {
 <li>Cost: $240 for 8 weeks ($60 per group). Sliding scale is available for those with financial hardship.</li>
 <li>Registration is on a rolling basis.</li>
 </ul>
-<h3>For more information and to register for this group please contact me at 650-419-7004 or ruthie@mentalfitnesstherapy.org</h3>
+<h3>For more information and to register for this group please contact me at <a href="tel:6504197004">650-419-7004</a> or <a href="mailto:ruthie@mentalfitnesstherapy.org">ruthie@mentalfitnesstherapy.org</a></h3>
 <h3><u>Topics include:</u></h3>
 <ul> 
 <li>Understanding symptoms and red flags</li>

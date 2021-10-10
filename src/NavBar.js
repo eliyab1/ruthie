@@ -9,7 +9,6 @@ export default function NavBar() {
                     <NavLink to="/services/maternalhealth"><span>Maternal Mental Health</span></NavLink>
                     <NavLink to="/services/curriculumdev"><span>Curriculum Development</span></NavLink>
                     <NavLink to="/services/grouptherapy"><span>Group Therapy</span></NavLink>
-                    <NavLink to="/services/plantmedicine"><span>Plant Medicine/ Altered States of Consciousness Integration</span></NavLink>
                 </div>
         </div>
         <NavLink to="/contact" activeClassName="active"><button  value="setContact" >Contact</button></NavLink>

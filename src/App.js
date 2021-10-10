@@ -12,7 +12,6 @@ import IndividualTherapy from './IndividualTherapy';
 import MaternalHealth from './MaternalHealth';
 import CurriculumDev from './CurriculumDev';
 import GroupTherapy from './GroupTherapy';
-import PlantMedicine from './PlantMedicine';
 export default function App() {
   return <>
     <Router>
@@ -29,7 +28,6 @@ export default function App() {
       <Route path="/services/maternalhealth"> <MaternalHealth /> </Route>
       <Route path="/services/curriculumdev"> <CurriculumDev /> </Route>
       <Route path="/services/grouptherapy"> <GroupTherapy /></Route>
-      <Route path="/services/plantmedicine"> <PlantMedicine /></Route>
     </Switch>
     </Router>
   </>
