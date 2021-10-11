@@ -52,11 +52,14 @@ export default function FAQs() {
                 <li>2) Therapy will fix all my problems. <em>The goal of therapy is not to engineer a problem-free life, although many problems 
                     may be solved as a byproduct of therapy. The goal of therapy is to solve whatever problems are solvable and learn to coexist 
                     effectively with problems that cannot be solved.</em></li>
-                <li>3) After completing therapy, I will never have another symptom again. Remember that recovery is nonlinear and symptoms are not your enemies. 
-                    Symptoms are warning signs that something needs attention. Hopefully, therapy can teach you how to effectively attend to symp</li>
-                <li>4) My therapist is supposed to be available 24/7.</li></ul>
+                <li>3) After completing therapy, I will never have another symptom again. <em>Remember that recovery is nonlinear and symptoms are not your enemies. 
+                    Symptoms are warning signs that something needs attention. Hopefully, therapy can teach you how to effectively attend to symptoms 
+                    and make quick u-turns back towards a healthier baseline.</em></li>
+                <li>4) Going to therapy means something is wrong with me. <em>There is nothing wrong with a person needing help. However, the judgment 
+                    about needing help is not useful.  In fact, seeking help indicates that something is right with you--it shows courage, humility, 
+                    and attentiveness to your needs.</em></li></ul>
             <li>Where does the therapy take place?</li>
-            <p style={{"font-size":"15px"}}>Everything happens online. So you can wear sweatpants and
+            <p style={{"font-size":"15px"}}>Meetings happen online on a confidential HIPAA-compliant platform.. So you can wear sweatpants and
                 skip the traffic. All you need is a private space and good internet connection.</p>
             <li>Is telehealth as effective as in-person therapy?</li>
             <p style={{"font-size":"15px"}}>Telehealth is as effective as in person therapy for most people and can be a great option for those who cannot travel to an office 
