@@ -5,7 +5,7 @@ export default function AboutMe() {
     useEffect(()=>{document.title="About Me | Mental Fitness Therapy"},[])
     return <><div className="page-content">
     <b>
-    <h2>Ruthie Ayzenberg, LMFT, LPCC</h2>
+    <h2>Ruthie Ayzenberg, LMFT, LPCC, PMH-C</h2>
    <img src={ruth} alt="ruthie ayzenberg" height="300" style={{"border-radius":"75%"}} />
    <br />
    <br />
