@@ -1,10 +1,13 @@
 body {display: flex; overflow-x: auto; overflow-y: scroll; margin: 0px; padding: 0px; background-color: #e8fdfd;}
 
-.titles {display:flex; align-items:center; 
-   flex-direction:column; color:#D1E8E2; 
-   font-family: sans-serif; background:#116466;}
+.flex-box {display:flex;
+  align-content: center;
+  justify-content:space-around; color:#D1E8E2; 
+  font-family: sans-serif; background:#116466;}
 
-.title {margin: 8px;}
+.flex-box div {align-self: center;}
+  
+/* .title {margin: 8px 50px;} */
 
 .topnav {display:flex; background-image:url("art.png");
   background-size: contain; justify-content:flex-end; }
