@@ -19,13 +19,13 @@ body {display: flex; overflow-x: auto; overflow-y: scroll; margin: 0px; padding:
 
 .servicesnav {display:flex;}
 
-.servicesnav button { border:black 0px ; padding:30px 25px; color:#D1E8E2; font-size:20px; font-weight:bolder;
+.servicesnav button { border:black 0px ; padding:30px 25px; background-color:rgb(202, 240, 97); color:rgb(101, 101, 219); font-size:20px; font-weight:bolder;
   -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:#116466; 
   font-family:Verdana, Geneva, Tahoma, sans-serif; cursor: pointer;}
 
-.servicesnav button:not(:focus):not(.dropdown):hover {background-color: cornsilk; color:#064647; opacity: 0.5;}
+.servicesnav button:not(:focus):hover {background-color:rgb(101, 101, 219); color:white;}
 
-.servicesnav button:focus:not(.dropdown:hover) {background-color:darkseagreen; color:blue; opacity: 0.8;}
+.servicesnav button:focus {background-color:rgb(101, 101, 219); color:white;}
 
 
 div.dropdown {position:relative; display:inline-block;}
