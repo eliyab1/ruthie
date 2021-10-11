@@ -17,6 +17,17 @@ body {display: flex; overflow-x: auto; overflow-y: scroll; margin: 0px; padding:
 
 .topnav button:focus:not(.dropdown:hover) {background-color:darkseagreen; color:blue; opacity: 0.8;}
 
+.servicesnav {display:flex;}
+
+.servicesnav button { border:black 0px ; padding:30px 25px; color:#D1E8E2; font-size:20px; font-weight:bolder;
+  -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:#116466; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif; cursor: pointer;}
+
+.servicesnav button:not(:focus):not(.dropdown):hover {background-color: cornsilk; color:#064647; opacity: 0.5;}
+
+.servicesnav button:focus:not(.dropdown:hover) {background-color:darkseagreen; color:blue; opacity: 0.8;}
+
+
 div.dropdown {position:relative; display:inline-block;}
 
 div.dropdown:hover .dropdown-content {display:block;}
