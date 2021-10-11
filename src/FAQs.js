@@ -35,11 +35,29 @@ export default function FAQs() {
                 -Am I making better choices based on the contents from therapy?
                 Keep in mind that progress is nonlinear and having dips is a normal part of recovery.  If the overall trajectory is trending upwards, the dips are 
                 becoming less frequent and less deep, and you can get back to baseline faster, this is a good sign.</p>
-            <li>What are some unrealistic expectations from therapy?</li>
-            <p style={{"font-size":"15px"}}>Therapy works by osmosis. All I need to do is show up and wait for the therapist to do magic.
-                Therapy will fix all my problems.
-                After completing therapy, I will never have another symptom again.
-                My therapist is supposed to be available  24/7.</p>
+            <li>How do I know if the therapist is a good fit for me?</li>
+            <p style={{"font-size":"15px"}}>
+            The most important factor in healing is the therapeutic relationship. Without the foundation of a good therapeutic alliance, no amount of techniques or 
+            interventions will suffice. The second most important factor is therapist competence (the techniques and interventions). A therapist who is a good fit 
+            will check both boxes. Feeling safe to be yourself with the therapist, feeling seen and understood, and feeling that the therapist has your best 
+            interests in mind are all signs of a good relationship. Resonating with the methodology and noticing positive shifts in yourself is a sign of competence 
+            (of both yourself and the therapist). The first few sessions should give you enough information to know if it's a good fit. If you  have doubts about 
+            goodness of fit, this is important to discuss with the therapist, as this would provide an opportunity to overcome any barriers or refer you to another 
+            therapist if that’s in your best interest. 
+            </p>
+            <li>What are some myths about therapy?</li>
+            <ul style={{"font-size":"15px", "list-style-type":"none"}}>
+                <li>1) Therapy works by osmosis. All I need to do is show up and wait for the therapist to do magic.<em>The fact is that 
+                therapy requires concerted efforts from both you and the therapist. By the effort is the reward.</em></li>
+                <li>2) Therapy will fix all my problems. <em>The goal of therapy is not to engineer a problem-free life, although many problems 
+                    may be solved as a byproduct of therapy. The goal of therapy is to solve whatever problems are solvable and learn to coexist 
+                    effectively with problems that cannot be solved.</em></li>
+                <li>3) After completing therapy, I will never have another symptom again. Remember that recovery is nonlinear and symptoms are not your enemies. 
+                    Symptoms are warning signs that something needs attention. Hopefully, therapy can teach you how to effectively attend to symp</li>
+                <li>4) My therapist is supposed to be available 24/7.</li></ul>
+            <li>Where does the therapy take place?</li>
+            <p style={{"font-size":"15px"}}>Everything happens online. So you can wear sweatpants and
+                skip the traffic. All you need is a private space and good internet connection.</p>
             <li>Is telehealth as effective as in-person therapy?</li>
             <p style={{"font-size":"15px"}}>Telehealth is as effective as in person therapy for most people and can be a great option for those who cannot travel to an office 
                 or those who prefer to have appointments in their own setting and save travel time. Other than the logistical convenience of telehealth, some therapeutic benefits 
