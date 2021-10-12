@@ -1,6 +1,6 @@
 import { useEffect } from "react"
-export default function FAQs() {
-    useEffect(()=>{document.title="FAQ's | Mental Fitness Therapy"},[])
+export default function FAQ() {
+    useEffect(()=>{document.title="FAQ | Mental Fitness Therapy"},[])
     return <>
     <div className="page-content">
         <ul style={{"font-size":"23px"}}>

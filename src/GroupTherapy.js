@@ -33,7 +33,7 @@ export default function GroupTherapy() {
      tremendous power to heal those injuries.  
     There is a magic healing power that happens in groups that brings out people’s best authentic selves, which they can carry over into their families, jobs, friends, etc.</p>
 <ul> 
-<li>Some unique aspects of group therapy include:*</li>
+<li style={{"list-style-type":"none"}}><u>Some unique aspects of group therapy include</u>:*</li>
 <li>Group cohesiveness: Getting together to share experiences builds a sense of connection and solidarity.</li>
 <li>Universality: Being with others in the same boat can help you feel validated and realize that you’re not the only one with such struggles. Feeling less alone can give you hope and strength.</li>
 <li>Interpersonal learning: Observing others, getting feedback about yourself, and learning practical information from others can help you be more open towards yourself and others.</li>
