@@ -13,8 +13,8 @@ export default function Home() {
                     <h4>VIDEO or IMAGE or BIG TABS…TBD
                         NEEDS: PROFESSIONAL HEADSHOT
                         VIDEO script and 1 min commercial or 5 min interview
-                        LOGO
-                        COLOR SCHEME
+                        LOGO: Going up the slide, ladder, stairs, 
+                        COLOR SCHEME:
                         IMAGES: Homepage background banner (something bold, fitness related)
                         Individual therapy image (climbing a DNA ladder or something)
                         Maternal MH image (working out with the baby or something) 
