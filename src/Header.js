@@ -1,6 +1,6 @@
 import favicon from "./favicon.PNG"
 export default function Header() {
-return  <>  <div className="flex-box">
+return  <>  <div className="header">
                 <div className="left-titles" >
                     <h1 className="title" style={{margin: "8px 50px"}}>Mental Fitness Therapy</h1>
                     <h3 style={{"margin":"8px 260px 8px 100px"}}>Your Psychological Gym</h3>

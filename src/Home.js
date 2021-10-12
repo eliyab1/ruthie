@@ -8,7 +8,7 @@ export default function Home() {
                     process becomes organic and enjoyable.</h3>
                     <h3>Think of therapy as your mental wellness gym, a space where you can set goals, learn 
                     about yourself, get active, practice new skills, experiment with new behaviors, challenge yourself, reward yourself, 
-                    and transform.
+                    and transform. And all of this without a sweat!
                     </h3>
                     <h4>VIDEO or IMAGE or BIG TABS…TBD
                         NEEDS: PROFESSIONAL HEADSHOT
