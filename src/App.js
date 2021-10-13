@@ -10,7 +10,7 @@ import FAQ from "./FAQ"
 import Resources from './Resources';
 import AboutMe from './AboutMe';
 import IndividualTherapy from './IndividualTherapy';
-import MaternalPaternalHealth from './MaternalPaternalHealth';
+import PostpartumParents from './PostpartumParents';
 import CurriculumDev from './CurriculumDev';
 import GroupTherapy from './GroupTherapy';
 import Footer from './Footer';
@@ -28,7 +28,7 @@ export default function App() {
       <Route path="/aboutme"> <AboutMe /> </Route>
       <Route path="/contact"> <Contact /> </Route>
       <Route path="/services/individual"> <IndividualTherapy /> </Route>
-      <Route path="/services/maternalpaternalhealth"> <MaternalPaternalHealth /> </Route>
+      <Route path="/services/postpartumparents"> <PostpartumParents /> </Route>
       <Route path="/services/curriculumdev"> <CurriculumDev /> </Route>
       <Route path="/services/grouptherapy"> <GroupTherapy /></Route>
     </Switch>

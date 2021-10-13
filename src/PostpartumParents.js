@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 export default function MaternalHealth() {
-    useEffect(()=>{document.title="Maternal and Paternal Mental Health | Mental Fitness Therapy"},[])
+    useEffect(()=>{document.title="Postpartum Parents | Mental Fitness Therapy"},[])
     return <>
     <div className="page-content">
         <p>Postpartum depression and anxiety is notoriously common today. One in 7 new moms 
