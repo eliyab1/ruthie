@@ -62,15 +62,15 @@ export default function FAQ() {
             <Accordion.Header>What are some myths about therapy?</Accordion.Header>
                 <Accordion.Body>
             <ul style={{"fontSize":"15px", "listStyleType":"none"}}>
-                <li>1) Therapy works by osmosis. All I need to do is show up and wait for the therapist to do magic.<em>The fact is thAccordion.Header>
+                <li>1) Therapy works by osmosis. All I need to do is show up and wait for the therapist to do magic.<em>The fact is that
                 therapy requires concerted efforts from both you and the therapist. By the effort is the reward.</em></li>
-                <li>2) Therapy will fix all my problems. <em>The goal of therapy is not to engineer a problem-free life, although many probleAccordion.Header>
+                <li>2) Therapy will fix all my problems. <em>The goal of therapy is not to engineer a problem-free life, although many problems
                     may be solved as a byproduct of therapy. The goal of therapy is to solve whatever problems are solvable and learn to coexist 
                     effectively with problems that cannot be solved.</em></li>
-                <li>3) After completing therapy, I will never have another symptom again. <em>Remember that recovery is nonlinear and symptoms are not your enemieAccordion.Header>
+                <li>3) After completing therapy, I will never have another symptom again. <em>Remember that recovery is nonlinear and symptoms are not your enemies.
                     Symptoms are warning signs that something needs attention. Hopefully, therapy can teach you how to effectively attend to symptoms 
                     and make quick u-turns back towards a healthier baseline.</em></li>
-                <li>4) Going to therapy means something is wrong with me. <em>There is nothing wrong with a person needing help. However, the judgmeAccordion.Header>
+                <li>4) Going to therapy means something is wrong with me. <em>There is nothing wrong with a person needing help. However, the judgment
                     about needing help is not useful.  In fact, seeking help indicates that something is right with you--it shows courage, humility, 
                     and attentiveness to your needs.</em></li></ul></Accordion.Body></Accordion.Item>
             <Accordion.Item eventKey="7">
