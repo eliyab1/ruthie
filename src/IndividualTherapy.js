@@ -17,7 +17,17 @@ export default function IndividualTherapy() {
                 </ul>
             </li>
             <li>
-            Modalities:
+            Modalities: <ul>
+                <li>Short-Term Dynamic Psychotherapy (STDP)</li>
+                <li>Internal Family Systems (IFS) </li>
+                <li>Interpersonal Therapy (IPT)</li>
+                <li>Attachment-Based Therapy</li>
+                <li>Cognitive Behavioural Therapy (CBT)</li>
+                <li>Dialectical Behavioral Therapy (DBT)</li>
+                <li>Expressive Arts</li>
+                <li>Emotional Freedom Technique (EFT-Tapping)</li>
+
+            </ul>
             </li>
             <li>
             What to expect:
@@ -28,7 +38,6 @@ export default function IndividualTherapy() {
                 identifying  behaviors that are unhelpful to you and encourage you to turn toward healthier ways of relating with yourself and others. 
                 Since having a strong alliance is essential for  therapeutic success, I encourage you to provide ongoing honest feedback  about what 
                 is working for you and what is not so that we can make the necessary changes.</p>
-            <p>If we agree that you could benefit from additional appointments, we  can discuss the frequency and duration to best suit your needs.</p>
         </ul>
     </div>
     </>

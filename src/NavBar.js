@@ -6,7 +6,7 @@ export default function NavBar() {
             <NavLink to="/services" activeClassName="active"><button className="dropdown"  value="setServices" >Services</button></NavLink>
                 <div activeClassName="active" className="dropdown-content">
                     <NavLink to="/services/individual"><span>Individual Therapy</span></NavLink>
-                    <NavLink to="/services/maternalhealth"><span>Maternal Mental Health</span></NavLink>
+                    <NavLink to="/services/maternalpaternalhealth"><span>Maternal and Paternal Mental Health</span></NavLink>
                     <NavLink to="/services/curriculumdev"><span>Curriculum Development</span></NavLink>
                     <NavLink to="/services/grouptherapy"><span>Group Therapy</span></NavLink>
                 </div>

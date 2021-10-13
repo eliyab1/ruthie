@@ -1,30 +1,40 @@
+import  Accordion  from "react-bootstrap/Accordion"
 import { useEffect } from "react"
 export default function FAQ() {
     useEffect(()=>{document.title="FAQ | Mental Fitness Therapy"},[])
     return <>
-    <div className="page-content">
-        <ul style={{"font-size":"23px"}}>
-            <li>Do you do initial phone consultations? </li>
-            <p style={{"font-size":"15px"}}>Yes, I do a free no-obligation 10-15 minute phone consultation to touch base about your reasons 
-            and expectations for therapy to determine if we can work together.  I invite you to ask any questions you may have before starting therapy.</p>
-            <li>What happens in the first session?</li>
-            <p style={{"font-size":"15px"}}>The first meeting is 50 minutes in length (unless pre-agreed otherwise
+    <div style={{"margin":"50px 500px 100px 500px","width":"33%"}}>
+        <Accordion style={{"fontSize":"23px","display":""}}>
+            <Accordion.Item eventKey="0">
+            <Accordion.Header>Do you do initial phone consultations? </Accordion.Header>
+            <Accordion.Body style={{"fontSize":"15px"}}>Yes, I do a free no-obligation 10-15 minute phone consultation to touch base about your reasons 
+            and expectations for therapy to determine if we can work together.  I invite you to ask any questions you may have before starting therapy.</Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+            <Accordion.Header>What happens in the first session?</Accordion.Header>
+            <Accordion.Body style={{"fontSize":"15px"}}>The first meeting is 50 minutes in length (unless pre-agreed otherwise
                 ) and includes a discussion about informed consent,  assessment, and goal-setting.  The focus of this appointment is to get to 
                 know something about each other,  join forces in understanding your situation, and to arrive at a consensus about your goals and the steps 
-                needed to reach them.</p>
-            <li>How do I optimize my therapy experience?</li>
-            <p style={{"font-size":"15px"}}>That’s a great question! You can optimize you therapy before, during, and after sessions: 
+                needed to reach them.</Accordion.Body>
+                </Accordion.Item>
+            <Accordion.Item eventKey="2">
+            <Accordion.Header>How do I optimize my therapy experience?</Accordion.Header>
+            <Accordion.Body style={{"fontSize":"15px"}}>That’s a great question! You can optimize you therapy before, during, and after sessions: 
                 Before sessions: Set goals and intentions for the session. Prepare what you need, such as water, pen &amp; paper
                 During the session: Show up with an open and curious mind. Maintain an internal focus. Be willing to slow down. Take risks and experiment with new learnings.  Share 
                 honest feedback about what is working and what is not. After the session: Review your takeaways. Journal about your experience in the session. 
-                Actively work on your goals and practice skills.</p>
-            <li>How long do I need to be in therapy?</li>
-            <p style={{"font-size":"15px"}}>The length of therapy varies from person to person depending on clinical needs, goals, motivation, integration of gains between 
+                Actively work on your goals and practice skills.</Accordion.Body>
+                </Accordion.Item>
+            <Accordion.Item eventKey="3">
+            <Accordion.Header>How long do I need to be in therapy?</Accordion.Header>
+            <Accordion.Body style={{"fontSize":"15px"}}>The length of therapy varies from person to person depending on clinical needs, goals, motivation, integration of gains between 
                 sessions, and situational factors. Some people can complete therapy in just a few sessions, while others may need a year or longer. Some roads are shorter and 
                 some are longer with more mountainous terrain.  Therapy is about healing the nervous system. If it took years for symptoms to build up, then it will take 
-                time for your nervous system to recalibrate.  The more kind you can be with yourself, the more quickly your nervous system will cooperate. </p>
-            <li>How do I know if therapy is working?</li>
-            <p style={{"font-size":"15px"}}>If the sessions help you feel more calm, curious, compassionate, confident, courageous, creative, and clear, then therapy is working. 
+                time for your nervous system to recalibrate.  The more kind you can be with yourself, the more quickly your nervous system will cooperate. </Accordion.Body>
+                </Accordion.Item>
+            <Accordion.Item eventKey="4">
+            <Accordion.Header>How do I know if therapy is working?</Accordion.Header>
+            <Accordion.Body style={{"fontSize":"15px"}}>If the sessions help you feel more calm, curious, compassionate, confident, courageous, creative, and clear, then therapy is working. 
                 Here are some questions to ask yourself:
                 -Do I feel that the therapist understands me and brings out the best in me? 
                 -Am I learning new things about myself and new skills that I can use?
@@ -34,9 +44,11 @@ export default function FAQ() {
                 -Am I better able to handle triggering situations than I was before seeking therapy? 
                 -Am I making better choices based on the contents from therapy?
                 Keep in mind that progress is nonlinear and having dips is a normal part of recovery.  If the overall trajectory is trending upwards, the dips are 
-                becoming less frequent and less deep, and you can get back to baseline faster, this is a good sign.</p>
-            <li>How do I know if the therapist is a good fit for me?</li>
-            <p style={{"font-size":"15px"}}>
+                becoming less frequent and less deep, and you can get back to baseline faster, this is a good sign.</Accordion.Body>
+                </Accordion.Item>
+            <Accordion.Item eventKey="5">
+            <Accordion.Header>How do I know if the therapist is a good fit for me?</Accordion.Header>
+            <Accordion.Body style={{"fontSize":"15px"}}>
             The most important factor in healing is the therapeutic relationship. Without the foundation of a good therapeutic alliance, no amount of techniques or 
             interventions will suffice. The second most important factor is therapist competence (the techniques and interventions). A therapist who is a good fit 
             will check both boxes. Feeling safe to be yourself with the therapist, feeling seen and understood, and feeling that the therapist has your best 
@@ -44,25 +56,31 @@ export default function FAQ() {
             (of both yourself and the therapist). The first few sessions should give you enough information to know if it's a good fit. If you  have doubts about 
             goodness of fit, this is important to discuss with the therapist, as this would provide an opportunity to overcome any barriers or refer you to another 
             therapist if that’s in your best interest. 
-            </p>
-            <li>What are some myths about therapy?</li>
-            <ul style={{"font-size":"15px", "list-style-type":"none"}}>
-                <li>1) Therapy works by osmosis. All I need to do is show up and wait for the therapist to do magic.<em>The fact is that 
+            </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="6"> 
+            <Accordion.Header>What are some myths about therapy?</Accordion.Header>
+                <Accordion.Body>
+            <ul style={{"fontSize":"15px", "listStyleType":"none"}}>
+                <li>1) Therapy works by osmosis. All I need to do is show up and wait for the therapist to do magic.<em>The fact is thAccordion.Header>
                 therapy requires concerted efforts from both you and the therapist. By the effort is the reward.</em></li>
-                <li>2) Therapy will fix all my problems. <em>The goal of therapy is not to engineer a problem-free life, although many problems 
+                <li>2) Therapy will fix all my problems. <em>The goal of therapy is not to engineer a problem-free life, although many probleAccordion.Header>
                     may be solved as a byproduct of therapy. The goal of therapy is to solve whatever problems are solvable and learn to coexist 
                     effectively with problems that cannot be solved.</em></li>
-                <li>3) After completing therapy, I will never have another symptom again. <em>Remember that recovery is nonlinear and symptoms are not your enemies. 
+                <li>3) After completing therapy, I will never have another symptom again. <em>Remember that recovery is nonlinear and symptoms are not your enemieAccordion.Header>
                     Symptoms are warning signs that something needs attention. Hopefully, therapy can teach you how to effectively attend to symptoms 
                     and make quick u-turns back towards a healthier baseline.</em></li>
-                <li>4) Going to therapy means something is wrong with me. <em>There is nothing wrong with a person needing help. However, the judgment 
+                <li>4) Going to therapy means something is wrong with me. <em>There is nothing wrong with a person needing help. However, the judgmeAccordion.Header>
                     about needing help is not useful.  In fact, seeking help indicates that something is right with you--it shows courage, humility, 
-                    and attentiveness to your needs.</em></li></ul>
-            <li>Where does the therapy take place?</li>
-            <p style={{"font-size":"15px"}}>Meetings happen online on a confidential HIPAA-compliant platform.. So you can wear sweatpants and
-                skip the traffic. All you need is a private space and good internet connection.</p>
-            <li>Is telehealth as effective as in-person therapy?</li>
-            <p style={{"font-size":"15px"}}>Telehealth is as effective as in person therapy for most people and can be a great option for those who cannot travel to an office 
+                    and attentiveness to your needs.</em></li></ul></Accordion.Body></Accordion.Item>
+            <Accordion.Item eventKey="7">
+            <Accordion.Header>Where does the therapy take place?</Accordion.Header>
+            <Accordion.Body style={{"fontSize":"15px"}}>Meetings happen online on a confidential HIPAA-compliant platform.. So you can wear sweatpants and
+                skip the traffic. All you need is a private space and good internet connection.</Accordion.Body>
+                </Accordion.Item>
+            <Accordion.Item eventKey="8">
+            <Accordion.Header>Is telehealth as effective as in-person therapy?</Accordion.Header>
+            <Accordion.Body style={{"fontSize":"15px"}}>Telehealth is as effective as in person therapy for most people and can be a great option for those who cannot travel to an office 
                 or those who prefer to have appointments in their own setting and save travel time. Other than the logistical convenience of telehealth, some therapeutic benefits 
                 include: 
                 -Allowing the therapist to see you in your natural environment
@@ -71,15 +89,20 @@ export default function FAQ() {
                 -Videotherapy lends itself very well to some really valuable video-based interventions. 
                 There are some situations where in-person support is preferential to telehealth. High risk crisis situations are better managed in the containment of an office. 
                 Also, people who lack a safe and private setting are better suited for an office, as are people who have technological barriers (such as poor internet quality, difficulty 
-                logging on). </p>
-            <li>How much does therapy cost?</li>
-            <p style={{"font-size":"15px"}}>My fee is $180 for 50-minutes and due on the day of the appointment. 
+                logging on). </Accordion.Body>
+                </Accordion.Item>
+            <Accordion.Item eventKey="9">
+            <Accordion.Header>How much does therapy cost?</Accordion.Header>
+            <Accordion.Body style={{"fontSize":"15px"}}>My fee is $180 for 50-minutes and due on the day of the appointment. 
                 Payment methods: Venmo, Zelle, Paypal, and credit card (through Ivy Pay app).
                 Insurance/EAP : I contract with LYRA and MHN-Cardinal Care for Stanford University. If you have out-of-network benefits through your insurer, I’m happy to provide you with 
-                a superbill which you can submit to your insurance for partial reimbursement. </p>
-            <li>What is your cancellation policy?</li>
-            <p style={{"font-size":"15px"}}>I ask to be informed 24-hours prior to your appointment if you need to cancel or reschedule. Short notice cancellations (within 24 hours) and 
-                no shows will require you to pay the fee, since that time was reserved specifically for you. I do allow one free cancellation pass in cases of emergencies.</p>
-        </ul>
+                a superbill which you can submit to your insurance for partial reimbursement. </Accordion.Body>
+                </Accordion.Item>
+            <Accordion.Item eventKey="10">
+            <Accordion.Header>What is your cancellation policy?</Accordion.Header>
+            <Accordion.Body style={{"fontSize":"15px"}}>I ask to be informed 24-hours prior to your appointment if you need to cancel or reschedule. Short notice cancellations (within 24 hours) and 
+                no shows will require you to pay the fee, since that time was reserved specifically for you. I do allow one free cancellation pass in cases of emergencies.</Accordion.Body>
+                </Accordion.Item>
+        </Accordion>
     </div></>
 }
