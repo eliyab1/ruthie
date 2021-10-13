@@ -42,6 +42,8 @@ export default function MaternalHealth() {
 
     <p>*Postpartum psychosis is a psychiatric emergency that needs immediate evaluation and treatment. </p>
 
+    <p>If you’re having any of these signs for more than a couple days, then I encourage you to seek help. The best gift you can give to your family is your mental health.</p>
+
     <ul style={{"font-size":"23px"}}>Here are some things I can help you with: 
         <li>Assessment, diagnosis, and treatment of Pperinatal mood and anxiety disorders (depression, anxiety, bipolar, OCD, psychosis)</li>
         <li>Birth and postpartum planning for new parents/families</li>
@@ -52,6 +54,8 @@ export default function MaternalHealth() {
         <li>Integrating parenthood into identity</li>
         <li>Navigating career with motherhood</li>
         <li>Postpartum depression and anxiety in dads/partners</li>
+        <li>Joint counseling with partners &amp; family members</li>
+        <li>Relapse prevention</li>
     </ul>
     </div>
     </>
