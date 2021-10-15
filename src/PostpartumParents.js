@@ -40,11 +40,12 @@ export default function PostpartumParents() {
             <li>-Symptoms often  wax and wane</li>
         </ul>
 
-    <p>*Postpartum psychosis is a psychiatric emergency that needs immediate evaluation and treatment. </p>
+    <p>*Postpartum psychosis is a psychiatric emergency that needs immediate evaluation and treatment. </p><br /><br />
+
 
     <p>If you’re having any of these signs for more than a couple days, then I encourage you to seek help. The best gift you can give to your family is your mental health.</p>
-
-    <ul style={{"fontSize":"23px"}}>Here are some things I can help you with: 
+    <br />
+    <ul>Here are some things I can help you with: 
         <li>Assessment, diagnosis, and treatment of Pperinatal mood and anxiety disorders (depression, anxiety, bipolar, OCD, psychosis)</li>
         <li>Birth and postpartum planning for new parents/families</li>
         <li>Postpartum adjustment for new moms/dads/families</li>
