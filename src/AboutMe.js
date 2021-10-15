@@ -6,7 +6,7 @@ export default function AboutMe() {
     return <><div className="page-content">
     <b>
     <h2>Ruthie Ayzenberg, LMFT, LPCC, PMH-C</h2>
-   <img src={ruth} alt="ruthie ayzenberg" height="300" style={{"border-radius":"75%"}} />
+   <img src={ruth} alt="ruthie ayzenberg" height="300" style={{"borderRadius":"75%"}} />
    <br />
    <br />
     <h3>I am a licensed Marriage and Family Therapist and Professional Clinical Counselor,  practicing therapy since 2013. 
@@ -29,7 +29,7 @@ export default function AboutMe() {
     </b>
     <br />
     <br />
-    <img src={seal} alt="seal" height="200" style={{"border-radius":"50%"}} />
+    <img src={seal} alt="seal" height="200" style={{"borderRadius":"50%"}} />
     <br />
     <small>Certification from Postpartum Support International Image Seal</small>
     <br />
