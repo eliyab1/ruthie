@@ -9,7 +9,7 @@ return  <>  <div className="header">
                     <img src={test1} width="50%" alt="logo" style={{"display":"block","marginLeft":"33%","marginRight":"auto","borderRadius":"85%"}} />
                 </div>
                 <div>
-                    <h2  >Ruthie Ayzenberg LMFT LPCC PMH-C</h2>
+                    <h2  >Ruthie Ayzenberg, LMFT, LPCC, PMH-C</h2>
                 </div>
             </div>
         </>
