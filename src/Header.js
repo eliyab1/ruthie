@@ -1,15 +1,15 @@
-import favicon from "./favicon.PNG"
+import test1 from "./test1.jfif"
 export default function Header() {
 return  <>  <div className="header">
-                <div className="left-titles" >
-                    <h1 className="title" style={{margin: "8px 50px"}}>Mental Fitness Therapy</h1>
-                    <h3 style={{"margin":"8px 260px 8px 100px"}}>Your Psychological Gym</h3>
+                <div >
+                    <h1>Mental Fitness Therapy</h1>
+                    <h3 style={{"marginLeft":"15%"}}>Your Psychological Gym</h3>
+                </div>
+                <div >
+                    <img src={test1} width="50%" alt="logo" style={{"display":"block","marginLeft":"auto","marginRight":"auto","borderRadius":"85%"}} />
                 </div>
                 <div>
-                    <img src={favicon} height="100" alt="logo" />
-                </div>
-                <div className="right-titles">
-                    <h2 className="title" style={{"margin":"8px 85px"}}>Ruthie Ayzenberg LMFT LPCC PMH-C</h2>
+                    <h2  >Ruthie Ayzenberg LMFT LPCC PMH-C</h2>
                 </div>
             </div>
         </>

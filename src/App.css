@@ -7,8 +7,8 @@ body {display: flex; overflow-x: auto; overflow-y: scroll; margin: 0px; padding:
 
 .header {display:flex;
   align-content: center;
-  justify-content:space-around; color:#D1E8E2; 
-  font-family: sans-serif; background:#116466;}
+  justify-content:space-evenly; color:#D1E8E2; 
+  font-family: sans-serif; background:#116466; padding: 1vh;}
 
 .header div {align-self: center;}
 
@@ -66,12 +66,22 @@ div.dropdown.active:hover button.dropdown.active {background-image:url("art.png"
   box-shadow: inset 0 0 0 1000px rgba(106, 197, 106, 0.8); cursor: pointer;}
 
 
-.page-content {display: flex; align-items: center; flex-direction: column; margin: 5% 25% 7% 25%; text-align: center;}
+.page-content {display: flex; align-items: center; flex-direction: column; margin: 2% 30% 7% 30%; text-align: center;}
 
 @media (max-width:983px) {
   .page-content {display: flex; align-items: center; flex-direction: column; text-align: center;}
   
 }
+
+h1 {font-size: 4.25vmin; font-weight: bolder;}
+
+h2 {font-size: 3.5vmin; font-weight: bolder;}
+
+h3 {font-size: 2.75vmin; font-weight: bolder;}
+
+h4 {font-size: 2.25vmin; font-weight: bolder;}
+
+a {font-size: 2.25vmin; font-weight: bold;}
 
 li {margin-bottom: 15px; text-align: left;}
 
