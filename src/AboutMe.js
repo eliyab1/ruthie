@@ -13,7 +13,7 @@ export default function AboutMe() {
     I completed the Counseling Psychology program at Santa Clara University, and over the years have worked with kids, teens, 
     families, and adults with a wide range of concerns across all levels of care from outpatient to hospital.  I have a 
     specialization in maternal mental health, including working with moms and dads facing pre/postpartum issues. I also 
-    enjoy working with students, professionals, people with diverse backgrounds, and anyone who is motivated to do the therapy work.</h3>
+    enjoy working with students, professionals, people with diverse backgrounds, and anyone who is motivated to do the therapy work. </h3>
      
     <h3>There’s a myth that therapy cannot be fun. The reality is that laughing, lightheartedness, creativity and joy have a space in the 
     therapy room as much as the difficult emotions.  My goal is to provide you with therapy that is focused, effective, and also fun 
