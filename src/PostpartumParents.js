@@ -46,7 +46,6 @@ export default function PostpartumParents() {
 
     <p>*Postpartum psychosis is a psychiatric emergency that needs immediate evaluation and treatment. </p><br />
 
-
     <p>If you’re having any of these signs for more than a couple days, then I encourage you to seek help.</p>
     <br />
     <ul>Here are some things I can help you with:<br />

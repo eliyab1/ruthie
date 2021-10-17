@@ -23,17 +23,24 @@ body {display: flex; overflow-x: auto; overflow-y: scroll; margin: 0px; padding:
 
 .topnav button:focus:not(.dropdown:hover) {background-color:darkseagreen; color:blue; opacity: 0.8;}
 
-.servicesnav {display:flex;}
+.servicesnav {display:flex;
+  justify-content:stretch;
+  margin-top: 3%;
+  margin-left: 12%;
+  margin-right: 12%;}
 
-.servicesnav button { border:black 0px ; padding:30px 25px; background-color:rgb(202, 240, 97); color:rgb(101, 101, 219);
-   font-size:20px; font-weight:bolder;
-  -webkit-text-stroke-width: 1px; -webkit-text-stroke-color:#116466; 
+.servicesnav button { border:black 0px ; padding:5vmin 4vmin; background-color:rgb(202, 240, 97); color:rgb(101, 101, 219);
+   font-size:3vmin; font-weight:bolder;
+  -webkit-text-stroke-width: .2vmin; -webkit-text-stroke-color:#116466; 
   font-family:Verdana, Geneva, Tahoma, sans-serif; cursor: pointer;}
 
 .servicesnav button:hover {background-color:rgb(101, 101, 219); color:white;}
 
 .servicesnav button:focus {background-color:rgb(101, 101, 219); color:white;}
 
+.servicespics {display:flex;
+  align-content: center;
+  justify-content:space-evenly; margin: 5vh;}
 
 div.dropdown {position:relative; display:inline-block;}
 
@@ -48,21 +55,21 @@ button.dropdown.active:hover {background-image:url("art.png"); background-size: 
 
 button.dropdown:hover {background-image:url("art.png"); background-size: contain; box-shadow: inset 0 0 0 1000px rgba(207, 192, 132, 0.8);}
 
-.dropdown-content {display:none; position:absolute; color: #064647; font-size: 15px; text-align: center; background-image:url("art.png");
-  background-size: 72px; box-shadow: inset 0 0 0 1000px rgba(255, 248, 220, 0.8); z-index: 999;}
+.dropdown-content {display:none; position:absolute; color: #064647; font-size: 3vmin; text-align: center; background-image:url("art.png");
+  background-size: 11vmin; box-shadow: inset 0 0 0 1000px rgba(255, 248, 220, 0.8); z-index: 999;}
 
-.dropdown-content span {display: block; padding: 15px 10px;}
+.dropdown-content span {display: block; padding: 3vmin 2vmin;}
 
-.dropdown-content span:hover {background-image:url("art.png"); background-size: 72px;
+.dropdown-content span:hover {background-image:url("art.png"); background-size: 11vmin;
    box-shadow: inset 0 0 0 1000px rgba(207, 192, 132, 0.8); cursor: pointer;}
 
-.dropdown-content.active {background-image:url("art.png"); background-size: 72px;
+.dropdown-content.active {background-image:url("art.png"); background-size: 11vmin;
   box-shadow: inset 0 0 0 1000px  rgba(159, 216, 159, 0.8); color:blue;}
 
 div.dropdown.active:hover button.dropdown.active {background-image:url("art.png"); background-size: contain;
     box-shadow: inset 0 0 0 1000px  rgba(159, 216, 159, 0.8); color:blue;}
 
-.dropdown-content.active span:hover {background-image:url("art.png"); background-size: contain; background-size: 72px;
+.dropdown-content.active span:hover {background-image:url("art.png"); background-size: contain; background-size: 11vmin;
   box-shadow: inset 0 0 0 1000px rgba(106, 197, 106, 0.8); cursor: pointer;}
 
 
@@ -73,13 +80,13 @@ div.dropdown.active:hover button.dropdown.active {background-image:url("art.png"
   
 }
 
-h1 {font-size: 4.25vmin; font-weight: bolder;}
+h1 {font-size: 4.25vmin; font-weight: bold;}
 
-h2 {font-size: 3.5vmin; font-weight: bolder;}
+h2 {font-size: 3.5vmin; font-weight: bold;}
 
-h3 {font-size: 2.75vmin; font-weight: bolder;}
+h3 {font-size: 2.75vmin; font-weight: bold;}
 
-h4 {font-size: 2.25vmin; font-weight: bolder;}
+h4 {font-size: 2.25vmin; font-weight: bold;}
 
 a {font-size: 2.25vmin;}
 

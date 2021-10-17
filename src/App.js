@@ -1,8 +1,9 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
-import NavBar from './NavBar';
+import Construction from './Construction'
 import Header from "./Header"
+import NavBar from './NavBar'
 import Home from "./Home"
 import Services from "./Services"
 import Contact from "./Contact"
@@ -18,6 +19,7 @@ export default function App() {
   return <>
     <Router>
     <div className="page-wrap">
+    <Construction />
     <Header />
     <NavBar />
     <Switch>

@@ -1,6 +1,7 @@
 import test1 from "./test1.jfif"
 export default function Header() {
-return  <>  <div className="header">
+return  <>
+        <div className="header">
                 <div >
                     <h1>Mental Fitness Therapy</h1>
                     <h3 style={{"marginLeft":"15%"}}>Your Psychological Gym</h3>
