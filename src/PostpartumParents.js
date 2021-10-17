@@ -14,7 +14,7 @@ export default function PostpartumParents() {
             time is an optimal window to take care of new or pre-existing depression and anxiety, while the family is still in the early stages of adjusting to the 
             new baby.The best gift you can give to your family is your mental health.</p>
 
-        <p>Depression and anxiety can show up in many ways. Here are some red flags to watch out for.</p>
+        <p>Depression and anxiety can show up in many ways. Here are some red flags to watch out for...</p>
 
         <ul style={{"listStyleType":"none"}}>
             <li>-Low mood, sadness, or tearfulness</li>
@@ -29,19 +29,19 @@ export default function PostpartumParents() {
             <li>-Having scary thoughts or images that bother you</li>
             <li>-Neglecting basic self-care and hygiene</li>
             <li>-Cognition problems (decision-making, planning, organizing, remembering, problem-solving) </li>
-            <li>Signs of anxiety</li>
+            <li><u><b>Signs of anxiety</b></u></li>
             <li>-Physical signals (such as shallow breathing, increased heart rate, feeling tense, restless, headaches)</li>
             <li>-Excessive worrying (including catastrophic thoughts)</li>
             <li>-Excessive checking on the baby</li>
             <li>-Constantly feeling keyed up or on edge</li>
-            <li>Signs of mania</li>
+            <li><u><b>Signs of mania</b></u></li>
             <li>-Having a lot of energy (can be unusually productive or agitated/restless/anxious) </li>
             <li>-Reduced need for sleep</li>
-            <li>Signs of psychosis</li>
+            <li><u><b>Signs of psychosis</b></u></li>
             <li>-Hallucinations or delusions</li>
             <li>-Loss of touch with reality</li>
             <li>-Cognitive disorganization, confusion, or disorientation</li>
-            <li>-Symptoms often  wax and wane</li>
+            <li>-Symptoms often wax and wane</li>
         </ul>
 
     <p>*Postpartum psychosis is a psychiatric emergency that needs immediate evaluation and treatment. </p><br />
