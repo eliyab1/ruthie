@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import ruth from "./ruth.jfif"
-import seal from "./seal.PNG"
+import seal from "./sealSmall.png"
 export default function AboutMe() {
     useEffect(()=>{document.title="About Me | Mental Fitness Therapy"},[])
     return <><div className="page-content">
