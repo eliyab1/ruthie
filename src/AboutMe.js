@@ -9,7 +9,7 @@ export default function AboutMe() {
    <img src={ruth} alt="ruthie ayzenberg" height="300" style={{"borderRadius":"75%"}} />
    <br />
    <br />
-    <h3>aI am a licensed Marriage and Family Therapist and Professional Clinical Counselor,  practicing therapy since 2013. 
+    <h3>I am a licensed Marriage and Family Therapist and Professional Clinical Counselor,  practicing therapy since 2013. 
     I completed the Counseling Psychology program at Santa Clara University, and over the years have worked with kids, teens, 
     families, and adults with a wide range of concerns across all levels of care from outpatient to hospital.  I have a 
     specialization in maternal mental health, including working with moms and dads facing pre/postpartum issues. I also 
