@@ -22,7 +22,14 @@ export default function FAQ() {
             <Accordion.Header>How do I optimize my therapy experience?</Accordion.Header>
             <Accordion.Body style={{"fontSize":"15px"}}>That’s a great question!<br />
                 You can optimize you therapy before, during, and after sessions:<br />
-                <b>Before sessions:</b> Set goals and intentions for the session. Prepare what you need, such as water, pen &amp; paper.<br />
+                <b>Before sessions:</b> Set goals and intentions for the session:<br />
+                    What is the internal emotional difficulty you need help with? <br />
+                    What questions would you like to get more clarity on?<br />
+                    What are some helpful topics you would like to cover in the session?<br />
+                    Are there any skills you would like to learn or practice?<br />
+                    What would you like to be different for you at the end of the session? <br />
+                    Prepare what you need, such as water, pen &amp; paper<br />
+                    Show up on time<br />
                 <b>During the session:</b> Show up with an open and curious mind. Maintain an internal focus. Be willing to slow down. Take risks and experiment with new learnings.  Share 
                 honest feedback about what is working and what is not.<br />
                 <b>After the session:</b> Review your takeaways. Journal about your experience in the session. Actively work on your goals and practice skills.</Accordion.Body>

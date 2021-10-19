@@ -9,11 +9,12 @@ export default function AboutMe() {
    <img src={ruth} alt="ruthie ayzenberg" height="300" style={{"borderRadius":"75%"}} />
    <br />
    <br />
-    <h3>I am a licensed Marriage and Family Therapist and Professional Clinical Counselor,  practicing therapy since 2013. 
-    I completed the Counseling Psychology program at Santa Clara University, and over the years have worked with kids, teens, 
-    families, and adults with a wide range of concerns across all levels of care from outpatient to hospital.  I have a 
-    specialization in maternal mental health, including working with moms and dads facing pre/postpartum issues. I also 
-    enjoy working with students, professionals, people with diverse backgrounds, and anyone who is motivated to do the therapy work.</h3>
+    <h3>I am a licensed Marriage and Family Therapist and Professional Clinical Counselor,  practicing therapy since 2013. I completed 
+        the Counseling Psychology program at Santa Clara University, and over the years have worked with kids, teens, families, and 
+        adults with a wide range of concerns across all levels of care from outpatient to hospital.  Working in the MOMS program at 
+        El Camino Hospital, getting training from Postpartum Support International, and being a mother of two, has groomed me into 
+        specializing in maternal mental health, including working with moms and dads facing pre/postpartum issues. I also enjoy 
+        working with students, professionals, people with diverse backgrounds, and anyone who is motivated to do the therapy work.</h3>
      
     <h3>There’s a myth that therapy cannot be fun. The reality is that laughing, lightheartedness, creativity and joy have a space in the 
     therapy room as much as the difficult emotions.  My goal is to provide you with therapy that is focused, effective, and also fun 
@@ -30,9 +31,6 @@ export default function AboutMe() {
     <br />
     <br />
     <img src={seal} alt="seal" height="200" style={{"borderRadius":"50%"}} />
-    <br />
-    <small>Certification from Postpartum Support International Image Seal</small>
-    <br />
     </div>
     </>
 }

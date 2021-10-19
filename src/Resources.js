@@ -88,21 +88,56 @@ export default function Resources() {
                     <h3>MORE STUFF TBD….</h3>
                 </div>
             </div>
-            <div className="page-content"><h2><u>BOOKS</u></h2>
+            <div className="page-content">
+                <h1><u>BOOKS</u></h1><br />
                 <div className="resources">
-                    <h3>Attached</h3>
-                    <h3>Beyond the Blues</h3>
-                    <h3>Parenting the Whole Brain Child</h3>
-                    <h3>Gottmans</h3>
-                    <h3>Feeling Good</h3>
-                    <h3>Feeling Good Together</h3>
-                    <h3>When Panic Attacks</h3>
-                    <h3>I Thought It Was Just Me</h3>
-                    <h3>Why Love Matters</h3>
-                    <h3>Thich Nhat Khan books</h3>
-                    <h3>Far From the Tree</h3>
-                    <h3>The Noonsday Demon</h3>
-                    <h3>MORE STUFF TBD….</h3>
+                    <h2><u>Relationships</u></h2>
+                    <h3>Attached </h3><br />
+                    <h3>Gottmans</h3><br />
+                    <h3>Hold Me Tight</h3><br />
+                    <h3>Feeling Good Together</h3><br />
+                    <h3>How To Be An Adult in Relationships- David Richo</h3><br />
+<br />
+                    <h2><u>Postpartum &amp; Parenting</u></h2>
+                    <h3>Beyond the Blues</h3><br />
+                    <h3>Dropping the Baby and Other Scary Thoughts: Breaking the Cycle of Unwanted Thoughts in Motherhood -Karen Kleiman</h3><br />
+                    <h3>This Isn’t What I Expected-Karen Kleiman</h3><br />
+                    <h3>The Happiest Baby on the Block- Harvey Karp</h3><br />
+                    <h3>The Whole Brain Child</h3><br />
+                    <h3>Why Love Matters</h3><br />
+                    <h3>How to Talk So Kids Will Listen and Listen So Kids Will Talk</h3><br />
+                    <h3>Parenting with Love and Logic</h3><br />
+                    <h3>Far From the Tree</h3><br />
+<br />
+                    <h2><u>Depression and Anxiety</u></h2>
+                    <h3>Feeling Good</h3><br />
+                    <h3>When Panic Attacks</h3><br />
+                    <h3>The Noonsday Demon</h3><br />
+<br />
+                    <h2><u>Trauma</u></h2>
+                    <h3>The Body Keeps the Score- Bessel van der Kolk</h3><br />
+                    <h3>The Body Remembers-Babette Rothchild</h3><br />
+                    <h3>Waking the Tiger- Peter Levine</h3><br />
+                    <h3>Trauma and Memory: Brain and Body in Search of a Hidden Past-Peter Levine</h3><br />
+                    <h3>Trauma and Recovery- Judith Herman</h3><br />
+                    <h3>Man’s Search for Meaning- Victor Frankel</h3><br />
+                    <h3>Drama of the Gifted Child-Alice Miller</h3><br />
+                    <h3>ACEs study</h3><br />
+<br />
+                    <h2><u>Shame Resiliency</u></h2>
+                    <h3>I Thought It Was Just Me</h3><br />
+                    <h3>Rising Strong</h3><br />
+<br />
+                    <h2><u>Mindfulness</u></h2>
+                    <h3>The Miracle of Mindfulness -Thich Nhat Khan </h3><br />
+                    <h3>When Things Fall Apart- Pema Chodron</h3><br />
+                    <h3>The Power of Now- Eckhart Tolle</h3><br />
+                    <h3>Wherever You Go There You Are- Jon Kabat-Zinn</h3><br />
+                    <h3>Self-Compassion-Kristen Neff</h3><br />
+                    <h3>Tara Brach </h3><br />
+                    <h3>Aware- Dan Siegel</h3><br />
+                    <h3>Be Here Now- Ram Dass</h3><br />
+
                 </div>
             </div>
             </>
