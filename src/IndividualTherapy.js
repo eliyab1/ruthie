@@ -50,18 +50,21 @@ export default function IndividualTherapy() {
                     getting overwhelmed. I make an effort to incorporate DBT skills organically into the conversations and support you with 
                     reinforcing the skills in the sessions and for homework.</p>
                 <ul>
-                    <li>Expressive Arts</li>
+                    <li>Expressive Arts: </li>
                 </ul>
+                <p>When words are not enough to convey your experience, we can turn to the arts. Visual arts, poetry, music, drama, and movement 
+                    are the language of emotions and are useful for integrating the right and left brain, the brain and body, and the conscious 
+                    and unconscious. How we create art mirrors how we create our daily lives. The more time your nervous system can spend in a 
+                    balanced state, the easier it will be to rebalance yourself when triggers occur. </p>
                 <ul>
                     <li>Emotional Freedom Technique (EFT-Tapping): </li>
                 </ul>
-                <p>EFT is a holistic healing technique that has been around for thousands of years in Asia and was formalized in the USA about 
-                    30 years ago. EFT harnesses the power of acupressure, which is like acupuncture without the needles. It works by systematically 
+                <p>EFT is a holistic healing technique that harnesses the power of acupressure, which is like acupuncture without the needles. It works by systematically 
                     tapping on pressure points on the body that correspond to many parasympathetic nerve endings (which help you relax).  The 
                     combination of tapping while mindfully processing distressing material helps integrate emotions and thoughts with the body to 
-                    reduce distress about the problem at hand. EFT has been shown to be helpful for anxiety, irritability, difficult emotions, 
-                    physical pain, insomnia, phobias, and trauma activation. This is a great tool to practice in the sessions and reinforce at home. 
-                    The more time your nervous system can spend in a balanced state, the easier it will be to rebalance yourself when triggers occur.</p>
+                    reduce distress about the problem at hand. Even without the processing, just the tapping on its own can be beneficial. EFT has 
+                    been shown to be helpful for anxiety, irritability, difficult emotions, 
+                    physical pain, insomnia, phobias, and trauma activation. This is a great tool to practice in the sessions and reinforce at home.</p>
                 <hr />
                 <li>What to expect: </li>
                 <p style={{ "marginLeft":"2%" }}>Throughout treatment I will remain active, supportive, and practical. To accelerate treatment, I use evidence-based methods to help 
