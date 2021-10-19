@@ -80,6 +80,9 @@ div.dropdown.active:hover button.dropdown.active {background-image:url("art.png"
   
 }
 
+.individualDiv li {font-weight: bolder;}
+.individualDiv p {margin-left: 5%;}
+
 h1 {font-size: 4.25vmin; font-weight: bold;}
 
 h2 {font-size: 3.5vmin; font-weight: bold;}
