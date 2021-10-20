@@ -116,5 +116,6 @@ export default function FAQ() {
                 no shows will require you to pay the fee, since that time was reserved specifically for you. I do allow one free cancellation pass in cases of emergencies.</Accordion.Body>
                 </Accordion.Item>
         </Accordion>
-    </div></>
+    </div>
+    </>
 }

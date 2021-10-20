@@ -15,15 +15,7 @@ export default function AboutMe() {
         Camino Hospital, getting training from Postpartum Support International, and being a mother of two, has equipped me to specialize 
         in maternal and perinatal mental health, including working with moms and dads facing difficulties during pregnancy and postpartum. 
         I also enjoy working with students, professionals, people with diverse backgrounds, and anyone who is motivated to do the therapy 
-        work. I welcome people with situations from the most straightforward to the most unusual.</h3>
-     
-    <h3>There’s a myth that therapy cannot be fun. The reality is that laughing, lightheartedness, creativity and joy have a space in the 
-    therapy room as much as the difficult emotions.  My goal is to provide you with therapy that is focused, effective, and also fun. To 
-    do this, we orient therapy around 3 pillars: emotional and cognitive processing, practical skill-building, and integrating therapy 
-    material into your daily life. We use a variety of techniques, depending on 
-    your needs and preferences. Some modalities I use (most of which are evidence-based) are Short-Term Psychodynamic Therapy, 
-    Cognitive Behavioral Therapy (CBT), Dialectical Behavioral Therapy (DBT), Internal Family Systems (IFS), Art Therapy, 
-    Attachment-Based, Interpersonal Psychotherapy (IPT), and Trauma-Informed Care.</h3>
+        work. I welcome all people with situations from the most straightforward to the most unusual.</h3>
      
      <h3>I practice what I preach and implement all the skills and tools I teach you in therapy into my own life on a regular basis. 
      All the techniques I recommend to clients are ones that I have tried out for myself and found helpful. I really enjoy this 
