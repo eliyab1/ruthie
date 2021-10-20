@@ -15,7 +15,7 @@ export default function AboutMe() {
         Camino Hospital, getting training from Postpartum Support International, and being a mother of two, has equipped me to specialize 
         in maternal and perinatal mental health, including working with moms and dads facing difficulties during pregnancy and postpartum. 
         I also enjoy working with students, professionals, people with diverse backgrounds, and anyone who is motivated to do the therapy 
-        work. I welcome all people with situations from the most straightforward to the most unusual.</h3>
+        work. I welcome all people, with situations from the most straightforward to the most unusual.</h3>
      
      <h3>I practice what I preach and implement all the skills and tools I teach you in therapy into my own life on a regular basis. 
      All the techniques I recommend to clients are ones that I have tried out for myself and found helpful. I really enjoy this 
