@@ -4,7 +4,7 @@ import apple from "./apple.png"
 import audible from "./audible.png"
 import google from "./google.png"
 export default function Resources() {
-    useEffect(()=>{document.title="Resources  Mental Fitness Therapy"},[])
+    useEffect(()=>{document.title="Resources | Mental Fitness Therapy"},[])
     return <>
             <div className="page-content"><h2><u>Pregnancy and Postpartum</u></h2>
                 <div className="resources">

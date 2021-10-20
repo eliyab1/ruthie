@@ -54,8 +54,11 @@ export default function IndividualTherapy() {
                 </ul>
                 <p>When words are not enough to convey your experience, we can turn to the arts. Visual arts, poetry, music, drama, and movement 
                     are the language of emotions and are useful for integrating the right and left brain, the brain and body, and the conscious 
-                    and unconscious. How we create art mirrors how we create our daily lives. The more time your nervous system can spend in a 
-                    balanced state, the easier it will be to rebalance yourself when triggers occur. </p>
+                    and unconscious. How we create art mirrors how we create our daily lives. The creative process provides an opportunity to 
+                    practice mindfulness, problem-solving, decision-making, flexibility, adaptability, accountability, confidence, self-care and 
+                    to overcome harshness, perfectionism, impulsivity, excessive criticism and other unhelpful patterns right in the moment. Being 
+                    a lifelong student of the visual arts and having training in art therapy,  I welcome incorporating creative modalities of your 
+                    choice into therapy.</p>
                 <ul>
                     <li>Emotional Freedom Technique (EFT-Tapping): </li>
                 </ul>
