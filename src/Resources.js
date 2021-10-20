@@ -73,7 +73,7 @@ export default function Resources() {
                     </div>
                     <div style={{"backgroundColor":"MediumAquaMarine","padding":"1vmin 5vmin 2vmin","borderRadius":"10px","marginBottom":"4vmin"}}>
                         <h2>The Skillful Podcast</h2>
-                            <div style={{"display":"flex","justifyContent":"center", "columnGap":"20px"}}>
+                            <div style={{"display":"flex","justifyContent":"center", "columnGap":"3vmin"}}>
                                 <a href="https://open.spotify.com/show/0CYO75hjiJIBstRpvWZKCa?autoplay=true" rel="noreferrer" target="_blank"><img src={spotify} alt="spotify link" height="40" /></a>
                                 <a href="https://podcasts.apple.com/us/podcast/the-skillful-podcast/id1461774020" rel="noreferrer" target="_blank"><img src={apple} alt="apple link" height="40" /></a>
                                 <a href="https://podcasts.google.com/feed/aHR0cHM6Ly90aGVza2lsbGZ1bGxwb2RjYXN0LmxpYnN5bi5jb20vcnNz" rel="noreferrer" target="_blank"><img src={google} alt="google link" height="40" /></a>
