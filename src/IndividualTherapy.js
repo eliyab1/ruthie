@@ -5,18 +5,7 @@ export default function IndividualTherapy() {
     return <>
         <div className="individualDiv" style={{ "marginBottom":"14%" }}>
             <h2 style={{ "textAlign":"center","marginTop":"6%" }}>“If you are your own problem, then you can be your own solution.“</h2><br />
-            <h3 style={{ "textAlign":"center", "margin":"4% 25% 4% 25%" }}>There’s a myth that therapy cannot be fun. The reality is that laughing, 
-                lightheartedness, creativity and joy have a space in 
-                the therapy room as much as the difficult emotions.<br /><br />My goal is to provide you with therapy that is focused, effective, and 
-                also fun. To do this, we orient therapy around 3 pillars: emotional  and cognitive processing, practical skill-building, and 
-                integrating therapy material into your daily life. We use a variety of techniques, depending on your needs and preferences.<br /><br /> 
-                Some modalities I use (most of which are evidence-based) are Short-Term Psychodynamic Therapy, Cognitive Behavioral Therapy (CBT), 
-                Dialectical Behavioral Therapy (DBT), Internal Family Systems (IFS), Art Therapy, Attachment-Based, Interpersonal Psychotherapy (IPT), 
-                and Trauma-Informed Care.</h3>
-            <p style={{ "textAlign":"center", "margin":"0 35% 5% 35%" }}>Throughout treatment I will remain active, supportive, and practical.  Since having a strong alliance is essential for therapeutic success, 
-                I encourage you to provide ongoing honest feedback  about what is working for you and what is not so that we can make the necessary changes.</p>
             <ul style={{ "margin":"4% 18% 8% 18%" }}>
-                <hr />
                 <li>Issues: </li>
                 <ul>
                     <li>Depression</li>
