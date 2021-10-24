@@ -11,9 +11,9 @@ export default function NavBar() {
                     <NavLink to="/services/grouptherapy"><span>Group Therapy</span></NavLink>
                 </div>
         </div>
-        <NavLink to="/contact" ><button>Contact</button></NavLink>
+        <NavLink to="/aboutme" ><button>About Me</button></NavLink>
         <NavLink to="/faq" ><button  >FAQ</button></NavLink>
         <NavLink to="/resources" ><button>Resources</button></NavLink>
-        <NavLink to="/aboutme" ><button>About Me</button></NavLink>
+        <NavLink to="/contact" ><button>Contact</button></NavLink>
     </div>
 }
