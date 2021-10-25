@@ -25,10 +25,10 @@ export default function Home() {
                                 alt="first slide"
                             />    
                         
-                        <Carousel.Caption style={{"fontWeight":"bold" }}>
+                        {/* <Carousel.Caption style={{"fontWeight":"bold" }}>
                             <h3>ferns 1</h3>
                             <p>enter text here</p>
-                        </Carousel.Caption>
+                        </Carousel.Caption> */}
                         </CarouselItem>
                         <CarouselItem>
                             <img
@@ -36,10 +36,10 @@ export default function Home() {
                                 src={b}
                                 alt="second slide"
                             />
-                        <Carousel.Caption style={{ "fontWeight":"bold" }}>
+                        {/* <Carousel.Caption style={{ "fontWeight":"bold" }}>
                             <h3>ferns 2</h3>
                             <p>enter text here</p>
-                        </Carousel.Caption>
+                        </Carousel.Caption> */}
                         </CarouselItem>
                         <CarouselItem style={{ "color":"rgb(46, 48, 48)","fontWeight":"bold" }}>
                             <img
@@ -47,10 +47,10 @@ export default function Home() {
                                 src={c}
                                 alt="third slide"
                             />
-                        <Carousel.Caption style={{ "fontWeight":"bold" }}>
+                        {/* <Carousel.Caption style={{ "fontWeight":"bold" }}>
                             <h3>tree</h3>
                             <p>enter text here</p>
-                        </Carousel.Caption>
+                        </Carousel.Caption> */}
                         </CarouselItem>
                         <CarouselItem>
                             <img
@@ -58,10 +58,10 @@ export default function Home() {
                                 src={d}
                                 alt="fourth slide"
                             />
-                        <Carousel.Caption style={{"fontWeight":"bold" }}>
+                        {/* <Carousel.Caption style={{"fontWeight":"bold" }}>
                             <h3>tree network</h3>
                             <p>enter text here</p>
-                        </Carousel.Caption>
+                        </Carousel.Caption> */}
                         </CarouselItem>
                         <CarouselItem>
                             <img
@@ -69,10 +69,10 @@ export default function Home() {
                                 src={e}
                                 alt="fifth slide"
                             />
-                        <Carousel.Caption style={{ "color":"rgb(46, 48, 48)","fontWeight":"bold" }}>
+                        {/* <Carousel.Caption style={{ "color":"rgb(46, 48, 48)","fontWeight":"bold" }}>
                             <h3>neuronscape connecting synapse</h3>
                             <p>enter text here</p>
-                        </Carousel.Caption>
+                        </Carousel.Caption> */}
                         </CarouselItem>
                         <CarouselItem>
                             <img
@@ -80,10 +80,10 @@ export default function Home() {
                                 src={f}
                                 alt="sixth slide"
                             />
-                        <Carousel.Caption style={{ "fontWeight":"bold" }}>
+                        {/* <Carousel.Caption style={{ "fontWeight":"bold" }}>
                             <h3>Synapse weights</h3>
                             <p>enter text here</p>
-                        </Carousel.Caption>
+                        </Carousel.Caption> */}
                         </CarouselItem>
                     </Carousel>
                     <br />
