@@ -1,9 +1,9 @@
 import { useEffect } from "react"
 import { Carousel, CarouselItem } from "react-bootstrap"
-import a from "./Neuron background 2.jpg"
-import b from "./Neuron background 3.jpg"
-import c from "./neuron background 4.jpg"
-import d from "./Neuron background purple eyes.jpg"
+import a from "./ferns 1.jpg"
+import b from "./ferns 2.jpg"
+import c from "./tree.jpg"
+import d from "./tree network.jpg"
 import e from "./neuronscape connecting synapse.jpg"
 import f from "./Synapse weights .jpg"
 export default function Home() {
@@ -25,8 +25,8 @@ export default function Home() {
                                 alt="first slide"
                             />    
                         
-                        <Carousel.Caption style={{ "color":"darkslategray","fontWeight":"bold" }}>
-                            <h3>Neuron Background 2</h3>
+                        <Carousel.Caption style={{"fontWeight":"bold" }}>
+                            <h3>ferns 1</h3>
                             <p>enter text here</p>
                         </Carousel.Caption>
                         </CarouselItem>
@@ -36,8 +36,8 @@ export default function Home() {
                                 src={b}
                                 alt="second slide"
                             />
-                        <Carousel.Caption style={{ "color":"darkslategray","fontWeight":"bold" }}>
-                            <h3>Neuron Background 3</h3>
+                        <Carousel.Caption style={{ "fontWeight":"bold" }}>
+                            <h3>ferns 2</h3>
                             <p>enter text here</p>
                         </Carousel.Caption>
                         </CarouselItem>
@@ -48,7 +48,7 @@ export default function Home() {
                                 alt="third slide"
                             />
                         <Carousel.Caption style={{ "fontWeight":"bold" }}>
-                            <h3>Neuron Background 4</h3>
+                            <h3>tree</h3>
                             <p>enter text here</p>
                         </Carousel.Caption>
                         </CarouselItem>
@@ -59,7 +59,7 @@ export default function Home() {
                                 alt="fourth slide"
                             />
                         <Carousel.Caption style={{"fontWeight":"bold" }}>
-                            <h3>Neuron background purple eyes</h3>
+                            <h3>tree network</h3>
                             <p>enter text here</p>
                         </Carousel.Caption>
                         </CarouselItem>
