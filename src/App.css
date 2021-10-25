@@ -3,36 +3,26 @@
   src: url("./fonts/static/EBGaramond-Regular.ttf");
 }
 
-
 html {height: 100%; min-height: 100%;}
-body {display: flex; overflow-x: auto; overflow-y: scroll; margin: 0px; padding: 0px;  height: 100%; font-family:garamond;}
+body {display: flex; overflow-x: auto; overflow-y: scroll; margin: 0px; padding: 0px;  height: 100%; font-family:garamond; color:darkslategray}
 
 #root {width: 100%;}
 
-.page-wrap {min-height: 100%; margin-bottom: -3vmin;}
+.page-wrap {min-height: 100%;}
 
-.header {display:flex;
-  align-self: left;
-  /* justify-content:space-evenly;   */
-  font-family: garamond;  padding: 1vh;}
-  /* background:#116466;color:#D1E8E2; */
-/* .header div {align-self: center;} */
-
-/* .dude {background: lightgoldenrodyellow;} */
-
-.dude {background-image:url("Neuron background 1.jpg");
- background-size: cover; background-repeat: no-repeat; background-position: center;
- height: 50vmin;}
+.header {display:flex; align-self: left; padding: 1vh;
+  background-image:url("Neuron background 1.jpg");
+  background-size: cover; background-repeat: no-repeat; background-position: center;
+  height: 50vmin;}
 
 .topnav {display:flex;  justify-content:flex-end; }
-/* background-image:url("Neuron background 1.jpg");
-  background-size: cover; */
-.topnav button { border:black 0px ; padding:4.5vmin 3.5vmin; color:black; font-size:3vmin; font-weight:bolder;
+
+.topnav button:not(.dropdown-content) { border:black 0px ; padding:4.5vmin 3.5vmin; color:DarkSlateGray; font-size:3vmin; font-weight:bolder;
    cursor: pointer; background-color: transparent;}
 
-.topnav button:not(:focus):not(.dropdown):hover {color:#064647;}
+.topnav button:not(:focus):hover {color:#064647;}
 
-.topnav button:focus:not(.dropdown:hover) { color:blue;}
+.topnav button:focus { color:blue;}
 
 .servicesnav {display:flex;
   justify-content:stretch;
@@ -41,8 +31,7 @@ body {display: flex; overflow-x: auto; overflow-y: scroll; margin: 0px; padding:
   margin-right: 12%;}
 
 .servicesnav button { border:black 0px ; padding:5vmin 4vmin; background-color:rgb(202, 240, 97); color:rgb(101, 101, 219);
-   font-size:3vmin; font-weight:bolder; 
-  font-family:garamond; cursor: pointer;}
+   font-size:3vmin; font-weight:bolder; cursor: pointer;}
 
 .servicesnav button:hover { color:white;}
 
@@ -56,31 +45,22 @@ div.dropdown {position:relative; display:inline-block; background-color: transpa
 
 div.dropdown:hover .dropdown-content {display:block;}
 
-div.dropdown:hover {background-image:url("Neuron background 1.jpg"); background-size:cover; box-shadow: inset 0 0 0 1000px;}
+div.dropdown:hover:focus button.dropdown:focus {color:blue;}
 
-div.dropdown:hover:focus button.dropdown:focus {background-image:url("Neuron background 1.jpg"); background-size: cover;
-  box-shadow: inset 0 0 0 1000px  ; color:blue;}
+.dropdown-content {display:none; position:absolute; z-index: 999;}
 
-button.dropdown.active:hover {background-image:url("Neuron background 1.jpg"); background-size: cover; box-shadow: inset 0 0 0 1000px;}
+.dropdown-content a {display: block; padding: 3vmin 2vmin; font-size: 2.3vmin; color: DarkSlateGray; font-weight: bolder;text-decoration: none; text-align: center; background-color: white;}
 
-button.dropdown:hover {background-image:url("Neuron background 1.jpg"); background-size: contain; box-shadow: inset 0 0 0 1000px ;}
+.dropdown-content button:hover {
+   cursor: pointer;}
 
-.dropdown-content {display:none; position:absolute; font-size: 3vmin; text-align: cover; background-image:url("Neuron background 1.jpg");
-  background-size: 11vmin; box-shadow: inset 0 0 0 1000px ; z-index: 999;}
+.dropdown-content.active {
+  color:transparent;}
 
-.dropdown-content span {display: block; padding: 3vmin 2vmin;}
+div.dropdown.active:hover button.dropdown.active {color:transparent;}
 
-.dropdown-content span:hover {background-image:url("Neuron background 1.jpg"); background-size: 11vmin;
-   box-shadow: inset 0 0 0 1000px ; cursor: pointer;}
-
-.dropdown-content.active {background-image:url("Neuron background 1.jpg"); background-size: 11vmin;
-  box-shadow: inset 0 0 0 1000px  ; color:transparent;}
-
-div.dropdown.active:hover button.dropdown.active {background-image:url("Neuron background 1.jpg"); background-size: cover;
-    box-shadow: inset 0 0 0 1000px ; color:transparent;}
-
-.dropdown-content.active span:hover {background-image:url("Neuron background 1.jpg"); background-size: cover; background-size: 11vmin;
-  box-shadow: inset 0 0 0 1000px ; cursor: pointer;}
+.dropdown-content.active button:hover {
+   cursor: pointer;}
 
 
 .page-content {display: flex; align-items: center; flex-direction: column; margin: 4% 30% 8% 30%; text-align: center;}
@@ -93,8 +73,10 @@ div.dropdown.active:hover button.dropdown.active {background-image:url("Neuron b
 .individualDiv li {font-weight: bolder;}
 .individualDiv p {margin-left: 5%;}
 
-.pp-leftDiv {border: 3vmin solid CornflowerBlue; margin-right:50%; padding: 10vmin;}
-.pp-rightDiv {border: 3vmin solid CornflowerBlue; margin-left:50%; padding: 10vmin;}
+
+.pp {background-color: cornflowerblue; width: 100%; display: flex; justify-content: space-around; padding: 5vmin;}
+.pp-leftDiv {width: 40%; background-color: white; padding: 5vmin;}
+.pp-rightDiv {width: 40%; background-color: white; padding: 5vmin; align-items: center; flex-direction: column;}
 
 
 h1 {font-size: 4.25vmin; font-weight: bold;}
@@ -111,7 +93,9 @@ li {margin-bottom: 15px; text-align: left;}
 
 div.resources h3 {margin-bottom: 0px;}
 
-.footer {text-align:center; font-size:2.5vmin; background-color: black; color:white; height: 3vmin; width:100%;}
+.casts {display: flex; align-items: center; flex-direction: column; text-align: center; width: 50%; margin-right: 25%; margin-left: 25%;}
+
+.footer {text-align:center; font-size:2.5vmin; background-color: DarkSlateGray; color:white; height: 3vmin; width:100%;}
 
 .footer footer {background-color: inherit;}
 

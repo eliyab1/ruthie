@@ -20,11 +20,8 @@ export default function App() {
     <Router>
     <div className="page-wrap">
     <Construction />
-    <div className="dude">
     <Header />
-    </div>
     <NavBar />
-    
     <Switch>
       <Route exact path="/"> <Home /> </Route>
       <Route exact path="/services"> <Services /> </Route> 

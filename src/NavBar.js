@@ -12,7 +12,7 @@ export default function NavBar() {
                 </div>
         </div>
         <NavLink to="/aboutme" ><button>About Me</button></NavLink>
-        <NavLink to="/faq" ><button  >FAQ</button></NavLink>
+        <NavLink to="/faq" ><button>FAQ</button></NavLink>
         <NavLink to="/resources" ><button>Resources</button></NavLink>
         <NavLink to="/contact" ><button>Contact</button></NavLink>
     </div>

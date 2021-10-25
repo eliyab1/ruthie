@@ -29,6 +29,10 @@ export default function IndividualTherapy() {
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                     <Accordion.Header>Interpersonal Therapy (IPT)</Accordion.Header>
+                    <Accordion.Body>IPT is designed as a short-term evidence based therapy for depression, anxiety, and other ailments. 
+                        IPT presumes that symptoms make sense in the context of relationship loss, change of identity roles, conflict, 
+                        and isolation. I use IPT as a framework to examine relationship patterns and support changes towards healthy 
+                        adaptation to new life circumstances.</Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                     <Accordion.Header>Attachment-Based Therapy</Accordion.Header>
@@ -39,7 +43,7 @@ export default function IndividualTherapy() {
                     between thoughts, feelings, and behaviors. The premise of CBT is that our thoughts influence our feelings and if 
                     we can change our thoughts to be more helpful, then we can change our feelings too. Our brain is programmed to 
                     automatically produce thoughts, many of which are neither helpful nor useful nor productive. When our brain produces 
-                    too many automatic negative thoughts (ANTS), we can fall into depression or constant worrying. The  ANTS may feel 
+                    too many Automatic Negative Thoughts (ANTS), we can fall into depression or constant worrying. The  ANTS may feel 
                     true in the moment, but when we examine them under the microscope, we can see that they are actually quite distorted. 
                     We can then revise the unhelpful thoughts to be more realistic and helpful. CBT has many tools for editing unhelpful 
                     thoughts and beliefs and jumpstarting new behaviors.  Since CBT targets primarily the conscious regions of the brain 

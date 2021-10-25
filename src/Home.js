@@ -1,4 +1,11 @@
 import { useEffect } from "react"
+import { Carousel, CarouselItem } from "react-bootstrap"
+import a from "./Neuron background 2.jpg"
+import b from "./Neuron background 3.jpg"
+import c from "./neuron background 4.jpg"
+import d from "./Neuron background purple eyes.jpg"
+import e from "./neuronscape connecting synapse.jpg"
+import f from "./Synapse weights .jpg"
 export default function Home() {
     useEffect(()=>{document.title="Mental Fitness Therapy"})
     return <>
@@ -10,6 +17,76 @@ export default function Home() {
                     about yourself, get active, practice new skills, experiment with new behaviors, challenge yourself, reward yourself, 
                     and transform. And all of this without a sweat!
                     </h3><br />
+                    <Carousel>
+                        <CarouselItem>
+                            <img
+                                className="d-block w-100"
+                                src={a}
+                                alt="first slide"
+                            />    
+                        
+                        <Carousel.Caption style={{ "color":"darkslategray","fontWeight":"bold" }}>
+                            <h3>Neuron Background 2</h3>
+                            <p>enter text here</p>
+                        </Carousel.Caption>
+                        </CarouselItem>
+                        <CarouselItem>
+                            <img
+                                className="d-block w-100"
+                                src={b}
+                                alt="second slide"
+                            />
+                        <Carousel.Caption style={{ "color":"darkslategray","fontWeight":"bold" }}>
+                            <h3>Neuron Background 3</h3>
+                            <p>enter text here</p>
+                        </Carousel.Caption>
+                        </CarouselItem>
+                        <CarouselItem style={{ "color":"darkslategray","fontWeight":"bold" }}>
+                            <img
+                                className="d-block w-100"
+                                src={c}
+                                alt="third slide"
+                            />
+                        <Carousel.Caption style={{ "fontWeight":"bold" }}>
+                            <h3>Neuron Background 4</h3>
+                            <p>enter text here</p>
+                        </Carousel.Caption>
+                        </CarouselItem>
+                        <CarouselItem>
+                            <img
+                                className="d-block w-100"
+                                src={d}
+                                alt="fourth slide"
+                            />
+                        <Carousel.Caption style={{"fontWeight":"bold" }}>
+                            <h3>Neuron background purple eyes</h3>
+                            <p>enter text here</p>
+                        </Carousel.Caption>
+                        </CarouselItem>
+                        <CarouselItem>
+                            <img
+                                className="d-block w-100"
+                                src={e}
+                                alt="fifth slide"
+                            />
+                        <Carousel.Caption style={{ "color":"darkslategray","fontWeight":"bold" }}>
+                            <h3>neuronscape connecting synapse</h3>
+                            <p>enter text here</p>
+                        </Carousel.Caption>
+                        </CarouselItem>
+                        <CarouselItem>
+                            <img
+                                className="d-block w-100"
+                                src={f}
+                                alt="sixth slide"
+                            />
+                        <Carousel.Caption style={{ "fontWeight":"bold" }}>
+                            <h3>Synapse weights</h3>
+                            <p>enter text here</p>
+                        </Carousel.Caption>
+                        </CarouselItem>
+                    </Carousel>
+                    <br />
                     <h4>VIDEO or IMAGE or BIG TABS…TBD
                         NEEDS: PROFESSIONAL HEADSHOT
                         VIDEO script and 1 min commercial or 5 min interview

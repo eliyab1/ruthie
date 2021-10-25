@@ -21,11 +21,11 @@ export default function Resources() {
                 </div>
             </div>
 
-            <div className="page-content">
+            <div className="casts">
                 <h2>
                     <u>PODCASTS</u>
                 </h2>
-                <div className="resources">
+                <div className="casts">
                     <div style={{"backgroundColor":"MediumAquaMarine","padding":"1vmin 5vmin 2vmin","borderRadius":"10px","marginBottom":"4vmin"}}>
                         <h2>Tara Brach</h2>
                             <div style={{"display":"flex","justifyContent":"space-between", "columnGap":"3vmin"}}>
