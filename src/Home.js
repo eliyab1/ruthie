@@ -41,7 +41,7 @@ export default function Home() {
                             <p>enter text here</p>
                         </Carousel.Caption>
                         </CarouselItem>
-                        <CarouselItem style={{ "color":"darkslategray","fontWeight":"bold" }}>
+                        <CarouselItem style={{ "color":"rgb(46, 48, 48)","fontWeight":"bold" }}>
                             <img
                                 className="d-block w-100"
                                 src={c}
@@ -69,7 +69,7 @@ export default function Home() {
                                 src={e}
                                 alt="fifth slide"
                             />
-                        <Carousel.Caption style={{ "color":"darkslategray","fontWeight":"bold" }}>
+                        <Carousel.Caption style={{ "color":"rgb(46, 48, 48)","fontWeight":"bold" }}>
                             <h3>neuronscape connecting synapse</h3>
                             <p>enter text here</p>
                         </Carousel.Caption>
