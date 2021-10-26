@@ -38,7 +38,9 @@ export default function Contact() {
         <FormGroup controlId="controlMessageTextArea" className="mb-3">
             <FormControl as="textarea" placeholder="Type your message here" className="h-50"/>
         </FormGroup>
-        <Button type="submit" variant="primary">Submit</Button>
+        <div style={{ "float":"right" }}>
+        <Button type="submit" variant="primary" >Submit</Button>
+        </div>
     </Form>
     </Card.Body>
     </Card>

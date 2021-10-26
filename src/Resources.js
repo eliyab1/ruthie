@@ -107,12 +107,12 @@ export default function Resources() {
                     <h3>Why Love Matters -Sue Gerhardt</h3><br />
                     <h3>How to Talk So Kids Will Listen and Listen So Kids Will Talk</h3><br />
                     <h3>Parenting with Love and Logic</h3><br />
-                    <h3>Far From the Tree</h3><br />
+                    <h3>Far From the Tree -Andrew Solomon</h3><br />
 <br />
                     <h2><u>Depression and Anxiety</u></h2>
                     <h3>Feeling Good -David Burns</h3><br />
                     <h3>When Panic Attacks -David Burns</h3><br />
-                    <h3>The Noonsday Demon</h3><br />
+                    <h3>Conquer Your Critical Inner Voice -Robert and Lisa Firestone</h3><br />
 <br />
                     <h2><u>Trauma</u></h2>
                     <h3>The Body Keeps the Score -Bessel van der Kolk</h3><br />
