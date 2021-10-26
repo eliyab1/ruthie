@@ -1,25 +1,54 @@
 import { useEffect } from "react"
 import { Accordion } from "react-bootstrap"
+import { Link } from "react-router-dom"
 export default function IndividualTherapy() {
     useEffect(()=>{document.title="Individual Therapy | Mental Fitness Therapy"},[])
     return <>
-        <div className="individualDiv" style={{ "marginBottom":"14%" }}>
-            <h2 style={{ "textAlign":"center","marginTop":"6%" }}>“If you are your own problem, then you can be your own solution.“</h2><br />
-            <ul style={{ "margin":"4% 18% 8% 18%" }}>
-                <li>Issues: </li>
-                <ul>
-                    <li>Depression</li>
-                    <li>Anxiety</li>
-                    <li>Bipolar</li>
-                    <li>Relationship difficulties</li>
-                    <li>Life transitions</li>
-                    <li>Career and workplace issues</li>
-                    <li>Sleep issues</li>
-                    <li>Identity crisis</li>
-                    <li>Trauma</li>
+        <div className="individualDiv" style={{ "margin":"3% 18% 14% 18%" }}>
+            <h2 style={{ "textAlign":"center"}}><u>Individual Therapy</u></h2><br /><br />
+            <h3 style={{ "textAlign":"center"}}>All people are welcome to my practice. It takes courage to seek help and it's never too late to create meaningful change. 
+                We cannot underestimate the power of neuroplasticity (the brain’s ability to reorganize and wire new pathways) at any age, 
+                which can be engaged through the combination of safety and mindfulness inherent in the therapeutic process.</h3>
+            <br />
+            <br />
+            <h3>Here are some examples of concerns people show up with in my office:</h3>
+            <br />
+            <ul style={{ "listStyleType":"none" }}>
+                <li>Depression:</li>
+                    <p>Low mood, low energy, loss of joy, feeling detached, irritability, negative or critical thinking, ruminating, guilt &amp; shame, hopelessness, 
+                        dysregulated sleep and eating, life feels like a drag more days than not.</p>
+                <li>Anxiety:</li>
+                    <p>Excessive worry, intrusive thoughts, catastrophizing, insomnia, physical tension, restlessness, agitation, shallow breathing, GI problems, 
+                        headaches, unease in social situations.</p>
+                <li>Bipolar Disorder:</li>
+                    <p>Depression combined with at least one episode of mania or hypomania. Mania is characterized by a surge of energy, reduced need for sleep, 
+                        hyperactivity, impulsivity, racing thoughts, feeling on top of the world or feeling extremely agitated.  Hypomania can include all of the 
+                        above, but it’s less intense than mania. Someone with active mania requires medical stabilization and a higher level of care than I can provide. 
+                        However, I can help with mania aftermath and relapse prevention once psychiatric stabilization has occurred.</p>
+                <li>Prenatal/postpartum:</li>
+                    <p><Link to="/services/postpartumparents">Go to section</Link></p>
+                <li>Relationship difficulties:</li>
+                    <p>Communicating, navigating boundaries, building secure attachment, difficulties starting, maintaining, or ending a relationship, managing 
+                        conflict situations, etc.</p>
+                <li>Life transitions:</li>
+                    <p>Relocation adaptation, new job, new child, loss of a loved one, spiritual transitions (in either direction), gender transitioning, etc. 
+                        Therapy can help with adjusting to new roles, rules, and environment and integrating the life changes into your identity. Integration 
+                        means weaving together the new and old experiences, incorporating what you need, letting go of what you no longer need, and preserving 
+                        what you want to hold on to.</p>
+                <li>Career and workplace issues:</li>
+                    <p>Challenging work environments, cultural vulnerabilities,  workaholism, perfectionism, feeling like an impostor, communication difficulties, 
+                        anxiety at work, burnout, returning to work after maternity leave, balancing work and parenting, etc.</p>
+                <li>Sleep issues:</li>
+                    <p> Difficulty falling or staying asleep, middle of night awakenings and difficulty going back to sleep, waking up unrested, oversleeping, 
+                        difficulty getting out of bed, sleep deprivation, disturbing dreams or nightmares, maximizing sleep postpartum.</p>
+                <li>Trauma:</li>
+                    <p>Trauma refers to any event(s) that was so scary or unsafe it overwhelmed your nervous system and left you frozen or without control. 
+                        Trauma eludes a one size fits all definition, as it is in the eye of the beholder. Traumatic experiences literally get stuck in the 
+                        body’s physiological patterns, creating an array of  psychological and physical symptoms. Therapy can help the nervous system relearn 
+                        to feel safe so it can finally defrost and get unstuck from the trauma.</p>
                 </ul>
                 <hr />
-                <li>Modalities: </li>
+                <h4>Modalities:</h4>
                 <Accordion>
                     <Accordion.Item eventKey="0">
                     <Accordion.Header>Short-Term Dynamic Psychotherapy (STDP)</Accordion.Header>
@@ -83,7 +112,6 @@ export default function IndividualTherapy() {
                     physical pain, insomnia, phobias, and trauma activation. This is a great tool to practice in the sessions and reinforce at home.</Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
-            </ul>
         </div>
     </>
 }
