@@ -15,14 +15,14 @@ body {display: flex; overflow-x: auto; overflow-y: scroll; margin: 0px; padding:
   background-size: cover; background-repeat: no-repeat; background-position: center;
   height: 50vmin;}
 
-.topnav {display:flex;  justify-content:flex-end; }
+.topnav {display:flex;  justify-content:flex-end; border-bottom: double dodgerblue 0.5vmin; border-top: double dodgerblue 0.5vmin; }
 
-.topnav button:not(.dropdown-content) { border:black 0px ; padding:4.5vmin 3.5vmin; color:rgb(46, 48, 48); font-size:3vmin; font-weight:bolder;
+.topnav button:not(.dropdown-content) { border:black 0px ; padding:4.5vmin 3.5vmin; color:dodgerblue; font-size:3vmin; font-weight:bolder;
    cursor: pointer; background-color: transparent;}
 
-.topnav button:not(:focus):hover {color:#064647;}
+.topnav button:not(:focus):hover {color:rgb(152, 201, 250);}
 
-.topnav button:focus { color:blue;}
+.topnav button:focus { color:rosybrown;}
 
 .servicesnav {display:flex;
   justify-content:stretch;
@@ -45,7 +45,7 @@ div.dropdown {position:relative; display:inline-block; background-color: transpa
 
 div.dropdown:hover .dropdown-content {display:block;}
 
-div.dropdown:hover:focus button.dropdown:focus {color:blue;}
+div.dropdown:hover:focus button.dropdown:focus {color:rosybrown;}
 
 .dropdown-content {display:none; position:absolute; z-index: 999;}
 
@@ -63,7 +63,7 @@ div.dropdown.active:hover button.dropdown.active {color:transparent;}
    cursor: pointer;}
 
 
-.page-content {display: flex; align-items: center; flex-direction: column; margin: 4% 30% 8% 30%; text-align: center;}
+.page-content {display: flex; align-items: center; flex-direction: column; margin: 3% 30% 8% 30%; text-align: center;}
 
 @media (max-width:983px) {
   .page-content {display: flex; align-items: center; flex-direction: column; text-align: center;}

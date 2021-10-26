@@ -21,35 +21,35 @@ export default function Home() {
                             <img
                                 className="d-block w-100"
                                 src={a}
-                                alt="second slide"
+                                alt="first slide"
                             />
                         </CarouselItem>
                         <CarouselItem interval={3500}>
                             <img
                                 className="d-block w-100"
                                 src={b}
-                                alt="third slide"
+                                alt="second slide"
                             />
                         </CarouselItem>
                         <CarouselItem interval={3500}>
                             <img
                                 className="d-block w-100"
                                 src={c}
-                                alt="fourth slide"
+                                alt="third slide"
                             />
                         </CarouselItem>
                         <CarouselItem interval={3500}>
                             <img
                                 className="d-block w-100"
                                 src={d}
-                                alt="fifth slide"
+                                alt="fourht slide"
                             />
                         </CarouselItem>
                         <CarouselItem interval={3500}>
                             <img
                                 className="d-block w-100"
                                 src={e}
-                                alt="sixth slide"
+                                alt="fifth slide"
                             />
                         </CarouselItem>
                         </Carousel>

@@ -3,7 +3,8 @@ import { Accordion } from "react-bootstrap"
 export default function PostpartumParents() {
     useEffect(()=>{document.title="Postpartum Parents | Mental Fitness Therapy"},[])
     return <>
-    <div style={{ "textAlign":"left","margin":"4% 20% 4% 20%"}}>
+    <div style={{ "textAlign":"left","margin":"3% 20% 4% 20%"}}>
+        <h2 style={{ "textAlign":"center"}}><u>Postpartum Parents</u></h2><br /><br />
         <p>Postpartum depression and anxiety are the most common complications of pregnancy.  One in seven new moms meets criteria for postpartum depression, 
             which often co-occurs with anxiety. Many mothers feel that something is wrong, but don’t speak up or ask for help. Unfortunately, maternal depression 
             is underscreened in doctor offices, leaving many mothers to suffer in silence without understanding what’s going on. There are many factors that 

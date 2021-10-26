@@ -3,6 +3,7 @@ export default function GroupTherapy() {
     useEffect(()=>{document.title="Group Therapy | Mental Fitness Therapy"},[])
     return <>
     <div className="page-content">
+    <h2 style={{ "textAlign":"center"}}><u>Group Therapy</u></h2><br /><br />
     <h2>Room 2 Grow: Postpartum Adjustment Support Group</h2>
 
 <p>8 week online group to help new moms and dads adjust to parenthood. The group provides a safe space to connect with others in the same boat while getting 
