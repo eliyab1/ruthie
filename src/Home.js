@@ -16,36 +16,36 @@ export default function Home() {
                     about yourself, get active, practice new skills, experiment with new behaviors, challenge yourself, reward yourself, 
                     and transform. And all of this without a sweat!
                     </h3><br />
-                    <Carousel>
-                        <CarouselItem>
+                    <Carousel variant="dark">
+                        <CarouselItem interval={3500}>
                             <img
                                 className="d-block w-100"
                                 src={a}
                                 alt="second slide"
                             />
                         </CarouselItem>
-                        <CarouselItem>
+                        <CarouselItem interval={3500}>
                             <img
                                 className="d-block w-100"
                                 src={b}
                                 alt="third slide"
                             />
                         </CarouselItem>
-                        <CarouselItem>
+                        <CarouselItem interval={3500}>
                             <img
                                 className="d-block w-100"
                                 src={c}
                                 alt="fourth slide"
                             />
                         </CarouselItem>
-                        <CarouselItem>
+                        <CarouselItem interval={3500}>
                             <img
                                 className="d-block w-100"
                                 src={d}
                                 alt="fifth slide"
                             />
                         </CarouselItem>
-                        <CarouselItem>
+                        <CarouselItem interval={3500}>
                             <img
                                 className="d-block w-100"
                                 src={e}
