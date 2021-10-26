@@ -49,19 +49,12 @@ div.dropdown:hover:focus button.dropdown:focus {color:rosybrown;}
 
 .dropdown-content {display:none; position:absolute; z-index: 999;}
 
-.dropdown-content a {display: block; padding: 3vmin 2vmin; font-size: 2.3vmin; color: rgb(46, 48, 48); font-weight: bolder;text-decoration: none; text-align: center; background-color: white;}
+.dropdown-content a {display: block; padding: 3vmin 2vmin; font-size: 2.3vmin; color:dodgerblue; font-weight: bolder;text-decoration: none; text-align: center; background-color: white;}
 
-.dropdown-content button:hover {
+.dropdown-content a:hover {color:rgb(152, 201, 250);
    cursor: pointer;}
 
-.dropdown-content.active {
-  color:transparent;}
-
-div.dropdown.active:hover button.dropdown.active {color:transparent;}
-
-.dropdown-content.active button:hover {
-   cursor: pointer;}
-
+.dropdown-content a:focus { color:rosybrown}
 
 .page-content {display: flex; align-items: center; flex-direction: column; margin: 3% 30% 8% 30%; text-align: center;}
 
