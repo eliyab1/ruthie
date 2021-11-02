@@ -80,7 +80,8 @@ export default function PostpartumParents() {
     <p><b>If you’re having any of these signs for more than a couple days, then I encourage you to seek help.</b></p>
     </div>
     <div className="pp-rightDiv">
-    <ul>Here are some things I can help you with:<br /><br />
+    <ul>
+        <p>Here are some things I can help you with:</p>
         <li>Assessment, diagnosis, and treatment of perinatal mood and anxiety disorders (depression, anxiety, bipolar, OCD, psychosis)</li>
         <li>Birth and postpartum planning for new parents/families</li>
         <li>Postpartum adjustment for new moms/dads/families</li>

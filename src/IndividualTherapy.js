@@ -49,12 +49,15 @@ export default function IndividualTherapy() {
                 </ul>
                 <hr />
                 <h4>Modalities:</h4>
-                <Accordion>
+                <Accordion >
                     <Accordion.Item eventKey="0">
                     <Accordion.Header>Short-Term Dynamic Psychotherapy (STDP)</Accordion.Header>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
                     <Accordion.Header>Internal Family Systems (IFS) </Accordion.Header>
+                    <Accordion.Body>
+
+                    </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                     <Accordion.Header>Interpersonal Therapy (IPT)</Accordion.Header>
@@ -65,6 +68,14 @@ export default function IndividualTherapy() {
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                     <Accordion.Header>Attachment-Based Therapy</Accordion.Header>
+                    <Accordion.Body>
+                        ABT is a process-based approach where the therapy relationship aims to provide a model for a trusting and emotionally-intelligent 
+                        relationship that can be used to recover from past relationship injuries and build healthier relationship patterns going forward. 
+                        Early experiences with caregivers (usually parents) encode a child’s attachment style, which then transfers into adult relationships. 
+                        Thankfully, insecure attachment styles can be repaired in the context of a safe, attentive, and supportive relationship. I apply ABT 
+                        concepts as undercurrent throughout my practice to create a safe healing space. I also instruct you on the subtleties of building 
+                        attachment skills which you can incorporate into your relationships with children, partners, or anyone else.
+                    </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
                     <Accordion.Header>Cognitive Behavioural Therapy (CBT): </Accordion.Header>
