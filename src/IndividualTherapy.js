@@ -49,19 +49,34 @@ export default function IndividualTherapy() {
                 </ul>
                 <hr />
                 <h4>Modalities:</h4>
-                <Accordion >
+                <Accordion>
                     <Accordion.Item eventKey="0">
-                    <Accordion.Header>Short-Term Dynamic Psychotherapy (STDP)</Accordion.Header>
+                    <Accordion.Header> Intensive Short-Term Dynamic Psychotherapy (ISTDP)</Accordion.Header>
+                    <Accordion.Body>
+                        ISTDP is an evidence-based psychodynamic approach aimed to accelerate resolution of unconscious emotional conflicts 
+                        that perpetuate psychological and physical symptoms. Central to ISTDP is wholehearted collaboration, where we join 
+                        forces to help you let go of blocks that stand in the way of healing and invite healthier ways of relating with 
+                        yourself and the world. The work of ISTDP is intense in that it compels you to confront unconscious emotions and 
+                        material that may be easier to avoid in an effort to help you face your demons and begin to heal sooner rather than 
+                        later. ISTDP is more intense than other approaches and not for everyone. When using ISTDP,  we make sure to stay 
+                        within your window of tolerance and dial down the intensity as needed.
+                    </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
                     <Accordion.Header>Internal Family Systems (IFS) </Accordion.Header>
                     <Accordion.Body>
-
+                        IFS is a beautiful therapy approach based on the idea that all of us have an internal emotional family comprised 
+                        of our Self and our Parts. The Parts have evolved over time to protect us, to manage us, and to help us cope with 
+                        our environments. The Self is at the core and it is the center of your wisdom and wellness. Sometimes the parts don’t 
+                        get along with one another, creating an internal war and barriers to the Self, which makes us confused, misaligned, 
+                        anxious, or depressed. I use IFS to help you organize and resolve conflicts among the fragmented Parts so you could 
+                        reconnect to the Self, which is compassionate, calm, creative, courageous, confident, curious, and clear.
                     </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                     <Accordion.Header>Interpersonal Therapy (IPT)</Accordion.Header>
-                    <Accordion.Body>IPT is designed as a short-term evidence based therapy for depression, anxiety, and other ailments. 
+                    <Accordion.Body>
+                        IPT is designed as a short-term evidence based therapy for depression, anxiety, and other ailments. 
                         IPT presumes that symptoms make sense in the context of relationship loss, change of identity roles, conflict, 
                         and isolation. I use IPT as a framework to examine relationship patterns and support changes towards healthy 
                         adaptation to new life circumstances.</Accordion.Body>
@@ -78,7 +93,7 @@ export default function IndividualTherapy() {
                     </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
-                    <Accordion.Header>Cognitive Behavioural Therapy (CBT): </Accordion.Header>
+                    <Accordion.Header>Cognitive Behavioural Therapy (CBT)</Accordion.Header>
                     <Accordion.Body>CBT is an evidence-based modality that focuses on the connection 
                     between thoughts, feelings, and behaviors. The premise of CBT is that our thoughts influence our feelings and if 
                     we can change our thoughts to be more helpful, then we can change our feelings too. Our brain is programmed to 
@@ -92,7 +107,7 @@ export default function IndividualTherapy() {
                     life management and building capacity for deeper emotional work.</Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="5">
-                    <Accordion.Header>Dialectical Behavioral Therapy (DBT): </Accordion.Header>
+                    <Accordion.Header>Dialectical Behavioral Therapy (DBT)</Accordion.Header>
                     <Accordion.Body>DBT is an evidence-based treatment that is a  blend of eastern philosophy and western psychology. It is used to help 
                     people with managing emotions and relationships by teaching a plethora of skills in the following four areas: 
                     mindfulness, distress tolerance, emotional regulation, and interpersonal effectiveness. One of the main tenets of 
@@ -104,7 +119,7 @@ export default function IndividualTherapy() {
                     reinforcing the skills in the sessions and for homework.</Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="6">
-                    <Accordion.Header>Expressive Arts: </Accordion.Header>
+                    <Accordion.Header>Expressive Arts</Accordion.Header>
                     <Accordion.Body>When words are not enough to convey your experience, we can turn to the arts. Visual arts, poetry, music, drama, and movement 
                     are the language of emotions and are useful for integrating the right and left brain, the brain and body, and the conscious 
                     and unconscious. How we create art mirrors how we create our daily lives. The creative process provides an opportunity to 
@@ -114,7 +129,7 @@ export default function IndividualTherapy() {
                     choice into therapy.</Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="7">
-                    <Accordion.Header>Emotional Freedom Technique (EFT-Tapping): </Accordion.Header>
+                    <Accordion.Header>Emotional Freedom Technique (EFT-Tapping)</Accordion.Header>
                     <Accordion.Body>EFT is a holistic healing technique that harnesses the power of acupressure, which is like acupuncture without the needles. It works by systematically 
                     tapping on pressure points on the body that correspond to many parasympathetic nerve endings (which help you relax).  The 
                     combination of tapping while mindfully processing distressing material helps integrate emotions and thoughts with the body to 
