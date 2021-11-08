@@ -12,7 +12,7 @@ import Resources from './Resources';
 import AboutMe from './AboutMe';
 import IndividualTherapy from './IndividualTherapy';
 import PostpartumParents from './PostpartumParents';
-import CurriculumDev from './CurriculumDev';
+import SkillsCoaching from './SkillsCoaching';
 import GroupTherapy from './GroupTherapy';
 import Footer from './Footer';
 export default function App() {
@@ -31,7 +31,7 @@ export default function App() {
       <Route path="/contact"> <Contact /> </Route>
       <Route path="/services/individual"> <IndividualTherapy /> </Route>
       <Route path="/services/postpartumparents"> <PostpartumParents /> </Route>
-      <Route path="/services/curriculumdev"> <CurriculumDev /> </Route>
+      <Route path="/services/skillscoaching"> <SkillsCoaching /> </Route>
       <Route path="/services/grouptherapy"> <GroupTherapy /></Route>
     </Switch>
     </div>

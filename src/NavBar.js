@@ -7,7 +7,7 @@ export default function NavBar() {
                 <div className="dropdown-content">
                     <NavLink activeStyle={{ "color":"dodgerblue" }} to="/services/individual"><span>Individual Therapy</span></NavLink>
                     <NavLink activeStyle={{ "color":"dodgerblue" }} to="/services/postpartumparents"><span>Postpartum Parents</span></NavLink>
-                    <NavLink activeStyle={{ "color":"dodgerblue" }} to="/services/curriculumdev"><span>Curriculum Development</span></NavLink>
+                    <NavLink activeStyle={{ "color":"dodgerblue" }} to="/services/skillscoaching"><span>Skills Coaching</span></NavLink>
                     <NavLink activeStyle={{ "color":"dodgerblue" }} to="/services/grouptherapy"><span>Group Therapy</span></NavLink>
                 </div>
         </div>
